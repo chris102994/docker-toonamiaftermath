@@ -24,3 +24,6 @@ if [ ! -d '/config/log' ]; then
 fi
 
 chmod +x /app/ta-wrapper.sh
+
+# Initial Run
+/app/ta-wrapper.sh >> /config/log/ToonamiAftermath.log
