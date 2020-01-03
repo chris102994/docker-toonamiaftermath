@@ -10,7 +10,7 @@ This is a simple project that scrapes the website and generates an m3u playlist 
  [![Build Status](https://travis-ci.com/chris102994/docker-toonamiaftermath.svg?branch=master)](https://travis-ci.com/chris102994/docker-toonamiaftermath)
 
 ## Outside Packages
-* Built on my [Base GUI Image](https://github.com/chris102994/docker-toonamiaftermathi)
+* Built on my [Base GUI Image](https://github.com/chris102994/docker-base-image)
 
 
 ## Docker
