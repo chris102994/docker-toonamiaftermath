@@ -4,6 +4,7 @@ Toonami TV Guide Scraper Class
 '''
 import json
 import ssl
+import sys
 from urllib.request import urlopen
 
 from ToonamiAftermath.data_classes import ProgramObject, ChannelObject
@@ -30,9 +31,15 @@ class  ToonamiAftermathGuideScraper:
     def get_episodes(self, url, timeoffset, channelnumber):
         episode_list = []
         context = ssl._create_unverified_context()
-        data = urlopen(url, context=context).read()
-        json_data = json.loads(data)
+        
+        try:
+            data = urlopen(url, context=context).read()
+        except:
+            print('Error getting guide. Check your connection and ensure that toonamiaftermath.com is up')
+            sys.exit(1)
 
+        json_data = json.loads(data)
+            
         for media_type in json_data:
             name = media_type.get('name', '')
             startdate = media_type.get('startDate', '')
