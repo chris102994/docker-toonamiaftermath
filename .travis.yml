@@ -1,0 +1,30 @@
+#
+# Travis CI recipe to build, test and push docker images to the Docker Hub.
+#
+
+language: generic
+
+os:
+  - linux
+
+services:
+  - docker
+
+git:
+  submodules: true
+
+env:
+  global:
+  - DOCKER_REPO=christopher102994
+  - DOCKER_NAME=docker-toonamiaftermath
+  - DOCKER_TAG=alpine-3.10
+
+script:
+  - tools/scripts/make_container.sh
+
+deploy:
+  provider: script
+  script: tools/scripts/push_to_registry.sh
+  on:
+    branch: master
+

@@ -1,0 +1,26 @@
+#!/usr/bin/with-contenv bash
+
+set -u # Unset Variables are an error
+set -e # Exit on error
+
+# Ensure Data folder Exists
+DATA_PATH='/data/ToonamiAftermath'
+if [ ! -d $DATA_PATH ]; then
+	echo "First boot with mounted /data/ToonamiAftermath detected."
+	mkdir -p $DATA_PATH
+	chown -R 900:900 $DATA_PATH
+	chmod -R 0755 $DATA_PATH
+fi
+
+# Ensure the Data folder contains the playlist
+if [ ! -f $DATA_PATH/ToonamiAftermath.m3u ]; then
+	cp /defaults/ToonamiAftermath.m3u $DATA_PATH
+fi
+
+
+# Ensure log Dir Exists
+if [ ! -d '/config/log' ]; then
+	mkdir -p '/config/log'
+fi
+
+chmod +x /app/ta-wrapper.sh
