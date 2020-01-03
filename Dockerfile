@@ -12,7 +12,6 @@ COPY rootfs/ /
 RUN	echo "##### Downloading Runtime Packages #####" && \
 		apk add --no-cache \
 			python3 && \
-			alias python=python3 && \
 	echo "##### Downloading Virtual Build Dependencies #####" && \
 		apk add --no-cache --virtual=build-dependencies \
 			py3-pip && \
