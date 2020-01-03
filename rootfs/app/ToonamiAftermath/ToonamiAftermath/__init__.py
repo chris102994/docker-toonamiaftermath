@@ -24,8 +24,8 @@ def main():
 
     gist_enabled = os.getenv('GIT_ENABLED')
     if gist_enabled is not None or gist_enabled is 'TRUE':
-        tools.curl_to_gist(file_name)
-        tools.curl_to_gist('/data/ToonamiAftermath/ToonamiAftermath.m3u')
+        tools.curl_to_gist('Toonami_Aftermath_Guide', file_name)
+        tools.curl_to_gist('ToonamiAftermath.m3u', '/data/ToonamiAftermath/ToonamiAftermath.m3u')
     else:
         print('Pushing to Gist Is not enabled.')
 
