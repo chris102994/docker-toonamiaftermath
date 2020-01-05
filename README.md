@@ -23,7 +23,7 @@ docker run \
 	-v </path/to/appdata/config>:/config \
   	-v </path/to/data>:/data \
 	--restart unless-stopped \
-	christopher102994/docker-toonamiaftermath
+	christopher102994/docker-toonamiaftermath:alpine-3.10
 ```
 
 ## Parameters
