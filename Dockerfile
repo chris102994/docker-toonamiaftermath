@@ -26,3 +26,4 @@ RUN	echo "##### Downloading Runtime Packages #####" && \
 	echo "##### Cleaning Up #####" && \
 		apk del --purge build-dependencies
 ENV PYTHONPATH=/app/ToonamiAftermath/
+ENV FIRST_RUN=TRUE
