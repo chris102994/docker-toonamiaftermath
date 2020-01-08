@@ -10,15 +10,15 @@ This is a simple project that scrapes the website and generates an m3u playlist 
  [![Build Status](https://travis-ci.com/chris102994/docker-toonamiaftermath.svg?branch=master)](https://travis-ci.com/chris102994/docker-toonamiaftermath)
 
 ## Outside Packages
-* Built on my [Xteve Image](https://github.com/chris102994/docker-xteve)
+* Built on my [xteve Image](https://github.com/chris102994/docker-xteve)
 
 ## Docker
 ```
 docker run \
 	--name=docker-toonamiaftermath \
-	-p 34400:34400 `default` \
-	-v </path/to/appdata/config>:/config \
-  	-v </path/to/data>:/data \
+	-p 34400:34400 `optional unless you change port mapping` \
+	-v </path/to/appdata/config>:/config `optional if you dont plan to modify the xteve config` \
+  	-v </path/to/data>:/data `optional` \
   	-e NUMBER_OF_STREAMS=1 `optional` \
   	-e STREAM_BUFFER=ffmpeg `optional` \
   	-e XTEVE_PORT=34400 `optional` \
