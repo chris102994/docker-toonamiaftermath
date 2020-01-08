@@ -19,7 +19,7 @@ docker run \
 	-p 34400:34400 `default` \
 	-v </path/to/appdata/config>:/config \
   	-v </path/to/data>:/data \
-  	-e NUMBER_OF_STREAMS=1 \
+  	-e NUMBER_OF_STREAMS=1 `optional` \
   	-e STREAM_BUFFER=ffmpeg `optional` \
   	-e XTEVE_PORT=34400 `optional` \
 	--restart unless-stopped \
