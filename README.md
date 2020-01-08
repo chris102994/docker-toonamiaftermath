@@ -16,12 +16,11 @@ This is a simple project that scrapes the website and generates an m3u playlist 
 ```
 docker run \
 	--name=docker-toonamiaftermath \
-	-p 34400:34400 `optional unless you change port mapping` \
+	-p 34400:34400 \
 	-v </path/to/appdata/config>:/config `optional if you dont plan to modify the xteve config` \
-  	-v </path/to/data>:/data `optional` \
   	-e NUMBER_OF_STREAMS=1 `optional` \
   	-e STREAM_BUFFER=ffmpeg `optional` \
-  	-e XTEVE_PORT=34400 `optional` \
+  	-e XTEVE_PORT=34400 `optional unless you change the port mapping` \
 	--restart unless-stopped \
 	christopher102994/docker-toonamiaftermath:alpine-3.10
 ```
@@ -33,7 +32,6 @@ Container specific parameters passed at runtime. The format is `<external>:<inte
 | -------- | -------- |
 | -p 34400 | This is the port inside the container by default however, you should map the outside port to be the same as the inner port and set the `XTEVE_PORT` environment variable to also match. (Default=34400) |
 | -v /config | The directory where the application will store configuration information. |
-| -v /data | The path where the m3u playlist and XmlTV guide generated will be stored. |
 | -e NUMBER_OF_STREAMS | Number of parallel connections that the container will re-stream. (Default=1) |
 | -e STREAM_BUFFER | What the container uses to re-stream. Options: '-'=none (Default), 'xteve'=xteve, 'ffmpeg' , 'vlc' |
 | -e XTEVE_PORT | This must match the port you map to the container so that xteve can correctly forward the stream. (Default=34400) |
