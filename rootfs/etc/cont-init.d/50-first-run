@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+
+set -u # Unset Variables are an error
+set -e # Exit on error
+
+# Initial Run
+/app/ta-wrapper.sh >> /config/log/ToonamiAftermath.log

@@ -1,5 +1,5 @@
 # Pull the base image	
-FROM christopher102994/docker-base-img:alpine-3.10
+FROM christopher102994/docker-xteve:alpine-3.10
 MAINTAINER chris102994<chris102994@yahoo.com>
 
 ARG BUILD_DATE
@@ -11,7 +11,7 @@ COPY rootfs/ /
 # Setup Base Script
 RUN	echo "##### Downloading Runtime Packages #####" && \
 		apk add --no-cache \
-			python3 && \
+			python3 zip && \
 	echo "##### Downloading Virtual Build Dependencies #####" && \
 		apk add --no-cache --virtual=build-dependencies \
 			py3-pip && \

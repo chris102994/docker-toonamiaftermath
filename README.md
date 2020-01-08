@@ -5,23 +5,23 @@
 
 I do not officially endorse the Toonami Aftermath project or its affiliates. 
 
-This is a simple project that scrapes the website and generates an m3u playlist along with a XmlTV guide that can be stored locally or on a github GIST so that live tv players such as Emby or Plex can view the channels. 
+This is a simple project that scrapes the website and generates an m3u playlist along with a XmlTV that can be managed with [xteve](https://xteve.de/) so that live tv players such as Emby or Plex can view the channels. 
 
  [![Build Status](https://travis-ci.com/chris102994/docker-toonamiaftermath.svg?branch=master)](https://travis-ci.com/chris102994/docker-toonamiaftermath)
 
 ## Outside Packages
-* Built on my [Base GUI Image](https://github.com/chris102994/docker-base-image)
-
+* Built on my [Xteve Image](https://github.com/chris102994/docker-xteve)
 
 ## Docker
 ```
 docker run \
 	--name=docker-toonamiaftermath \
-	-e GIT_ENABLED:TRUE `optional` \
-	-e GITHUB_API_URL:<your gist url> `optional` \
-	-e GITHUB_API_TOKEN:<your github api token> `optional` \
+	-p 34400:34400 `default` \
 	-v </path/to/appdata/config>:/config \
   	-v </path/to/data>:/data \
+  	-e NUMBER_OF_STREAMS=1 \
+  	-e STREAM_BUFFER=ffmpeg `optional` \
+  	-e XTEVE_PORT=34400 `optional` \
 	--restart unless-stopped \
 	christopher102994/docker-toonamiaftermath:alpine-3.10
 ```
@@ -31,8 +31,16 @@ Container specific parameters passed at runtime. The format is `<external>:<inte
 
 | Parameter | Function |
 | -------- | -------- |
-| -e GIT_ENABLED | If you want to post results on a gist set to TRUE (Default=FALSE). |
-| -e GITHUB_API_URL | If GIT_ENABLED then you need a new GIST URL. |
-| -e GITHUB_API_TOKEN | If GIT_ENABLED then you need a Github API Token to enable pushing. |
+| -p 34400 | This is the port inside the container by default however, you should map the outside port to be the same as the inner port and set the `XTEVE_PORT` environment variable to also match. (Default=34400) |
 | -v /config | The directory where the application will store configuration information. |
 | -v /data | The path where the m3u playlist and XmlTV guide generated will be stored. |
+| -e NUMBER_OF_STREAMS | Number of parallel connections that the container will re-stream. (Default=1) |
+| -e STREAM_BUFFER | What the container uses to re-stream. Options: '-'=none (Default), 'xteve'=xteve, 'ffmpeg' , 'vlc' |
+| -e XTEVE_PORT | This must match the port you map to the container so that xteve can correctly forward the stream. (Default=34400) |
+
+## Application Setup
+
+The admin interface is available at `http://<ip>:<port>/web/`
+
+This will build and allow you to point your M3U Tuner to `http://<ip>:<port>/m3u/xteve.m3u`
+and your XEPG tuner to `http://<ip>:port/xmltv/xteve.xml`

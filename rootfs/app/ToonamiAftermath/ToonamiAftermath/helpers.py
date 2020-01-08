@@ -30,7 +30,7 @@ class Tools:
         return f
 
     def write_header_to_file(self, f):
-        header = '<?xml version="1.0" encoding="ISO-8859-1"?>\n' \
+        header = '<?xml version="1.0"?>\n' \
                  '<!DOCTYPE tv SYSTEM "xmltv.dtd">\n\n' \
                  '<tv source-info-url="https://api.toonamiaftermath.com" source-info-name="Toonami Aftermath" generator-info-name="Toonami-Grab" generator-info-url="https://api.toonamiaftermath.com">\n'
         f.write(header)

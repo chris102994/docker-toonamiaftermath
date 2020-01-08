@@ -1,0 +1,26 @@
+#!/usr/bin/with-contenv bash
+
+set -u # Unset Variables are an error
+set -e # Exit on error
+
+
+STREAM_BUFFER=${STREAM_BUFFER:--}
+NUMBER_OF_STREAMS=${NUMBER_OF_STREAMS:-1}
+XTEVE_PORT=${XTEVE_PORT:-34400}
+
+DEFAULT_SETTINGS=/config/settings.json
+
+
+# Ensure the Data folder contains the playlist
+if [ ! -f /config/settings.json ]; then
+	#echo "yes" | /app/xteve -config=/config -restore=/defaults/xteve_default.zip
+	unzip -j /defaults/xteve_default.zip -d /config
+	sed -i "s#STREAM_BUFFER#$STREAM_BUFFER#g" $DEFAULT_SETTINGS
+	sed -i "s#NUMBER_OF_STREAMS#$NUMBER_OF_STREAMS#g" $DEFAULT_SETTINGS
+	sed -i "s#XTEVE_PORT#$XTEVE_PORT#g" $DEFAULT_SETTINGS
+fi
+
+echo "If you wish to reset to the default parameters passed then remove the files in your mounted /data file."
+
+chown -R 900:900 /config
+chmod -R 0755 /config
