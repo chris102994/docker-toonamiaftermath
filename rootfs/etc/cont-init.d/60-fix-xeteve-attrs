@@ -13,7 +13,6 @@ DEFAULT_SETTINGS=/config/settings.json
 
 # Ensure the Data folder contains the playlist
 if [ ! -f /config/settings.json ]; then
-	#echo "yes" | /app/xteve -config=/config -restore=/defaults/xteve_default.zip
 	unzip -j /defaults/xteve_default.zip -d /config
 	sed -i "s#STREAM_BUFFER#$STREAM_BUFFER#g" $DEFAULT_SETTINGS
 	sed -i "s#NUMBER_OF_STREAMS#$NUMBER_OF_STREAMS#g" $DEFAULT_SETTINGS
