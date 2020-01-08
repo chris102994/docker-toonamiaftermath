@@ -1,5 +1,9 @@
  
-## [chris102994/docker-toonamiaftermath]()
+## [chris102994/docker-toonamiaftermath](https://github.com/chris102994/docker-toonamiaftermath)
+
+[![https://www.toonamiaftermath.com/](https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018)](https://www.toonamiaftermath.com/)
+
+[![Build Status](https://travis-ci.com/chris102994/docker-toonamiaftermath.svg?branch=master)](https://travis-ci.com/chris102994/docker-toonamiaftermath)
 
 [Toonami Aftermath](https://www.toonamiaftermath.com/) is a Toonami revival effort, which began as a 24/7 stream, launched on January 18, 2010 with its website appearing a few months after that. It airs programs that have been broadcast on Toonami, and also Cartoon Network, Fox, and Kids WB, such as Ronin Warriors, Cartoon Cartoons, X-Men: The Animated Series, and Pokemon. 
 
@@ -7,7 +11,6 @@ I do not officially endorse the Toonami Aftermath project or its affiliates.
 
 This is a simple project that scrapes the website and generates an m3u playlist along with a XmlTV that can be managed with [xteve](https://xteve.de/) so that live tv players such as Emby or Plex can view the channels. 
 
- [![Build Status](https://travis-ci.com/chris102994/docker-toonamiaftermath.svg?branch=master)](https://travis-ci.com/chris102994/docker-toonamiaftermath)
 
 ## Outside Packages
 * Built on my [xteve Image](https://github.com/chris102994/docker-xteve)
