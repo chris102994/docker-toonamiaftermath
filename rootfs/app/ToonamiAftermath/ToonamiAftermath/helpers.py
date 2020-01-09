@@ -46,21 +46,3 @@ class Tools:
     def close_file(self, f):
         f.close()
 
-    def curl_to_gist(self, file_name, file_path):
-        github_api_url = os.getenv('GITHUB_API_URL')
-        github_api_token = os.getenv('GITHUB_API_TOKEN')
-
-        if github_api_token is None or github_api_url is None:
-            print("Can't push to gist. Proper env variables not set.")
-        else:
-            print("Env Variables set properly. Attempting to push to gist.")
-            headers = {'Authorization': 'token %s' % github_api_token}
-            params = {'scope': 'gist'}
-            with open(file_path, 'r') as file:
-                data = file.read()
-            payload = {"description": "GIST created by automatic script", "public": False,
-                       "files": {'%s' % file_name: {"content": data}}}
-            r = requests.patch(github_api_url, headers=headers, params=params, data=json.dumps(payload))
-            print(r.status_code)
-            print(r.url)
-            print(r.text)
