@@ -4,6 +4,9 @@
 [![https://www.toonamiaftermath.com/](https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018)](https://www.toonamiaftermath.com/)
 
 [![Build Status](https://travis-ci.com/chris102994/docker-toonamiaftermath.svg?branch=master)](https://travis-ci.com/chris102994/docker-toonamiaftermath)
+ [![Image Size](https://img.shields.io/microbadger/image-size/christopher102994/docker-toonamiaftermath/alpine-3.10)](https://hub.docker.com/repository/docker/christopher102994/docker-toonamiaftermath)
+ [![Image Layers](https://img.shields.io/microbadger/layers/christopher102994/docker-toonamiaftermath/alpine-3.10)](https://hub.docker.com/repository/docker/christopher102994/docker-toonamiaftermath)
+ [![Image Pulls](https://img.shields.io/docker/pulls/christopher102994/docker-toonamiaftermath)](https://hub.docker.com/repository/docker/christopher102994/docker-toonamiaftermath)
 
 [Toonami Aftermath](https://www.toonamiaftermath.com/) is a Toonami revival effort, which began as a 24/7 stream, launched on January 18, 2010 with its website appearing a few months after that. It airs programs that have been broadcast on Toonami, and also Cartoon Network, Fox, and Kids WB, such as Ronin Warriors, Cartoon Cartoons, X-Men: The Animated Series, and Pokemon. 
 
