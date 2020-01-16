@@ -1,7 +1,0 @@
-#EXTM3U url-tvg="http://192.168.1.24:34400/xmltv/xteve.xml" x-tvg-url="http://192.168.1.24:34400/xmltv/xteve.xml"
-#EXTINF:0 channelID="x-ID.0" tvg-chno="1000" tvg-name="Toonami Aftermath EST (US) (English)" tvg-id="1000" tvg-logo="https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018" group-title="Toonami Aftermath",Toonami Aftermath EST (US) (English)
-http://192.168.1.24:34400/stream/f3c10d1450707b5257a56e1998133cf8
-#EXTINF:0 channelID="x-ID.1" tvg-chno="1001" tvg-name="Toonami Aftermath PST (US) (English)" tvg-id="1001" tvg-logo="https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018" group-title="Toonami Aftermath",Toonami Aftermath PST (US) (English)
-http://192.168.1.24:34400/stream/5e10aecb18022bd31879aeac32dea7da
-#EXTINF:0 channelID="x-ID.2" tvg-chno="1002" tvg-name="Random Movies (US) (English)" tvg-id="1002" tvg-logo="http://192.168.1.24:34400/images/776b16b1cd3d16934028152283c6d13a.png" group-title="Movies",Random Movies (US) (English)
-http://192.168.1.24:34400/stream/a1ba57d357784195cf9d074b7607a9be
