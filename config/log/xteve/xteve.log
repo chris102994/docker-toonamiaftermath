@@ -1,0 +1,41 @@
+For help run: /app/xteve -h
+
+[0m2020/01/08 04:05:53 [xTeVe] Version:               2.1.1 Build: 0112
+[0m[0m2020/01/08 04:05:53 [xTeVe] Database Version:      2.1.0
+[0m[0m2020/01/08 04:05:53 [xTeVe] System IP Addresses:   IPv4: 2 | IPv6: 0
+[0m[0m2020/01/08 04:05:53 [xTeVe] Hostname:              e081b17664a2
+[0m[0m2020/01/08 04:05:53 [xTeVe] System Folder:         /config/
+[0m[0m2020/01/08 04:05:53 [xTeVe] Load Settings:         /config/settings.json
+[0m[0m2020/01/08 04:05:53 [xTeVe] Temporary Folder:      /tmp/xteve/2020-01-FPIF-UZHM5N/
+[0m[0m2020/01/08 04:05:53 [xTeVe] GitHub:                https://github.com/xteve-project
+[0m[0m2020/01/08 04:05:53 [xTeVe] Git Branch:            master [xteve-project]
+[0m[0m2020/01/08 04:05:53 [xTeVe] SSDP / DLNA:           true
+[0m[0m2020/01/08 04:05:53 [xTeVe] UUID:                  2020-01-FPIF-UZHM5N
+[0m[0m2020/01/08 04:05:53 [xTeVe] Tuner (Plex / Emby):   1
+[0m[0m2020/01/08 04:05:53 [xTeVe] EPG Source:            XEPG
+[0m[0m2020/01/08 04:05:53 [xTeVe] Plex Channel Limit:    480
+[0m[0m2020/01/08 04:05:53 [xTeVe] Backup Path:           /config/backup/
+[0m[0m2020/01/08 04:05:53 [xTeVe] Backup file:           /config/backup/xteve_auto_backup_20200108_0405.zip
+[0m[0m2020/01/08 04:05:53 [xTeVe] Open:                  /data/ToonamiAftermath/ToonamiAftermath.m3u
+[0m[0m2020/01/08 04:05:53 [xTeVe] Check File:            /data/ToonamiAftermath/ToonamiAftermath.m3u
+[0m[0m2020/01/08 04:05:53 [xTeVe] Save File:             /data/ToonamiAftermath/ToonamiAftermath.m3u [ID: MEFSLBL3WKWEQXYX469O]
+[0m[0m2020/01/08 04:05:53 [xTeVe] Open:                  /data/ToonamiAftermath/Toonami_Aftermath_Guide.xml
+[0m[0m2020/01/08 04:05:53 [xTeVe] Check File:            /data/ToonamiAftermath/Toonami_Aftermath_Guide.xml
+[0m[0m2020/01/08 04:05:53 [xTeVe] Save File:             /data/ToonamiAftermath/Toonami_Aftermath_Guide.xml [ID: XYDP47B15C52LOH6R46J]
+[0m[0m2020/01/08 04:05:53 [xTeVe] All streams:           3
+[0m[0m2020/01/08 04:05:53 [xTeVe] Active streams:        3
+[0m[0m2020/01/08 04:05:53 [xTeVe] Filter:                0
+[0m[0m2020/01/08 04:05:53 [xTeVe] XEPG:                  Parse XMLTV file: ToonamiAftermath
+[0m[0m2020/01/08 04:05:53 [xTeVe] XEPG:                  Update database
+[0m[0m2020/01/08 04:05:53 [xTeVe] XEPG:                  Map channels
+[0m[0m2020/01/08 04:05:53 [xTeVe] XEPG:                  Cleanup database
+[0m[0m2020/01/08 04:05:53 [xTeVe] XEPG Channels:         3
+[0m[0m2020/01/08 04:05:53 [xTeVe] DVR IP:                172.17.0.2:34400
+[0m[32m2020/01/08 04:05:53 [xTeVe] Web Interface:         http://172.17.0.2:34400/web/ | xTeVe is also available via the other 1 IP.
+[0m[0m2020/01/08 04:05:53 [xTeVe] XEPG:                  Create XMLTV file (/config/data/xteve.xml)
+[0m[0m2020/01/08 04:05:53 [xTeVe] Create Dummy Guide:    Time offset +0000 - Random Movies (US) (English)
+[0m[0m2020/01/08 04:05:53 [xTeVe] XEPG:                  Create M3U file (/config/data/xteve.m3u)
+[0m[0m2020/01/08 04:05:53 [xTeVe] XEPG:                  Ready to use
+[0m[0m2020/01/08 04:05:53 [xTeVe] Image Caching:         Images are cached
+[0m[0m2020/01/08 04:05:56 [xTeVe] Image Caching:         Done
+[0m

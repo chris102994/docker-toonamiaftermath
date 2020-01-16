@@ -1,0 +1,23 @@
+{
+  "5e10aecb18022bd31879aeac32dea7da": {
+    "channelNumber": "1001",
+    "name": "Toonami Aftermath PST (US) (English)",
+    "playlistID": "MEFSLBL3WKWEQXYX469O",
+    "url": "http://api.toonamiaftermath.com:3000/est/playlist.m3u8?streamDelay=180",
+    "urlID": "5e10aecb18022bd31879aeac32dea7da"
+  },
+  "a1ba57d357784195cf9d074b7607a9be": {
+    "channelNumber": "1002",
+    "name": "Random Movies (US) (English)",
+    "playlistID": "MEFSLBL3WKWEQXYX469O",
+    "url": "http://api.toonamiaftermath.com:3000/movies/playlist.m3u8",
+    "urlID": "a1ba57d357784195cf9d074b7607a9be"
+  },
+  "f3c10d1450707b5257a56e1998133cf8": {
+    "channelNumber": "1000",
+    "name": "Toonami Aftermath EST (US) (English)",
+    "playlistID": "MEFSLBL3WKWEQXYX469O",
+    "url": "http://api.toonamiaftermath.com:3000/est/playlist.m3u8",
+    "urlID": "f3c10d1450707b5257a56e1998133cf8"
+  }
+}

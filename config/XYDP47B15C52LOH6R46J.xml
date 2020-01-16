@@ -1,0 +1,2115 @@
+<?xml version="1.0"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv source-info-url="https://api.toonamiaftermath.com" source-info-name="Toonami Aftermath" generator-info-name="Toonami-Grab" generator-info-url="https://api.toonamiaftermath.com">
+    <channel id="Toonami%20Aftermath%20EST">
+        <display-name lang="en">Toonami%20Aftermath%20EST</display-name>
+        <icon src="https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018"/>
+        <url>https://www.toonamiaftermath.com/</url>
+    </channel>
+    <channel id="Toonami%20Aftermath%20PST">
+        <display-name lang="en">Toonami%20Aftermath%20PST</display-name>
+        <icon src="https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018"/>
+        <url>https://www.toonamiaftermath.com/</url>
+    </channel>
+    <programme start="20200108000029 +0000" stop="20200108003017 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack Tales</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200108003017 +0000" stop="20200108010102 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack and the Smackback</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200108010102 +0000" stop="20200108012356 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Courage the Cowardly Dog</title>
+        <sub-title lang="en">A Night at the Katz Motel / Cajun Granny Stew</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/KD0PG3P.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108012356 +0000" stop="20200108013519 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">Read All About Ed</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108013519 +0000" stop="20200108014238 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cow and Chicken</title>
+        <sub-title lang="en">Cow Instincts, Don't It?</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/0QYl7ZQ.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108014238 +0000" stop="20200108014952 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">I Am Weasel</title>
+        <sub-title lang="en">Take I.R. Out to the Ballgame</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/b0n28MI.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108014952 +0000" stop="20200108020130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dexter's Laboratory</title>
+        <sub-title lang="en">Blackfoot And Slim</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/hMP6ON2.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108020130 +0000" stop="20200108022519 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Krillin's Frantic Attack!</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108022519 +0000" stop="20200108025006 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">It's In The Cards</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108025006 +0000" stop="20200108031302 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Vegeta's Respect</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108031302 +0000" stop="20200108033623 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Minute of Desperation</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108033623 +0000" stop="20200108040101 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">The Sorrowful Battle</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108040101 +0000" stop="20200108041348 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108041348 +0000" stop="20200108043731 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Coffins and Cradles</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108043731 +0000" stop="20200108050059 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cartoon Planet</title>
+        <sub-title lang="en">The Dangerous Danger</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/I5Lgh6a.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108050059 +0000" stop="20200108052455 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cyborg 009</title>
+        <sub-title lang="en">At the End of the Battle</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/pPqyK8x.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108052455 +0000" stop="20200108054936 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Yu Yu Hakusho: Ghost Files</title>
+        <sub-title lang="en">The Search Begins</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/zLgdAie.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108054936 +0000" stop="20200108061211 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Rurouni Kenshin</title>
+        <sub-title lang="en">The Juppongatana Who Remain</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/litCtMD.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108061211 +0000" stop="20200108063612 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Lupin the 3rd</title>
+        <sub-title lang="en">Alter-Ego Maniac</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/ttnXgu9.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108063612 +0000" stop="20200108070000 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ranma 1/2</title>
+        <sub-title lang="en">Akane's Lost Love... These Things Happen, You Know</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/GZNzBTy.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108070000 +0000" stop="20200108072530 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Wolf's Rain</title>
+        <sub-title lang="en">The Flower Maiden</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/RtRk8oq.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108072530 +0000" stop="20200108074034 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sealab 2021</title>
+        <sub-title lang="en">Tornado Shanks</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/AnkyrnS.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108074034 +0000" stop="20200108081906 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">FLCL</title>
+        <sub-title lang="en">FLCLimax</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cSD1zqo.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108081906 +0000" stop="20200108083454 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cromartie High School</title>
+        <sub-title lang="en">Joshua Tree</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4BYylmk.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108083454 +0000" stop="20200108090000 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Nadia: The Secret of Blue Water</title>
+        <sub-title lang="en">The Little Fugitives</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/n9ylocT.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108090000 +0000" stop="20200108093033 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Pokemon</title>
+        <sub-title lang="en">A Sappy Ending</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/VfdN6pP.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200108093033 +0000" stop="20200108100130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Batman: The Animated Series</title>
+        <sub-title lang="en">A Bullet for Bullock</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/nygJi6C.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200108100130 +0000" stop="20200108102525 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Monster Beast Giran</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108102525 +0000" stop="20200108105003 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Heightened Hazard</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108105003 +0000" stop="20200108111246 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">True Saiyans Fight Alone</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108111246 +0000" stop="20200108113600 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Battle for the Universe Begins</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108113600 +0000" stop="20200108120029 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Mobile Fighter G Gundam</title>
+        <sub-title lang="en">The Ultimate Attack! Duel With Master Asia</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/WCckIMt.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108120029 +0000" stop="20200108123017 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack Tales</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200108123017 +0000" stop="20200108130102 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack and the Smackback</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200108130102 +0000" stop="20200108132356 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Courage the Cowardly Dog</title>
+        <sub-title lang="en">A Night at the Katz Motel / Cajun Granny Stew</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/KD0PG3P.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108132356 +0000" stop="20200108133519 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">Read All About Ed</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108133519 +0000" stop="20200108134238 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cow and Chicken</title>
+        <sub-title lang="en">Cow Instincts, Don't It?</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/0QYl7ZQ.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108134238 +0000" stop="20200108134952 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">I Am Weasel</title>
+        <sub-title lang="en">Take I.R. Out to the Ballgame</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/b0n28MI.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108134952 +0000" stop="20200108140130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dexter's Laboratory</title>
+        <sub-title lang="en">Blackfoot And Slim</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/hMP6ON2.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108140130 +0000" stop="20200108142519 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Krillin's Frantic Attack!</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108142519 +0000" stop="20200108145006 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">It's In The Cards</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108145006 +0000" stop="20200108151302 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Vegeta's Respect</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108151302 +0000" stop="20200108153623 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Minute of Desperation</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108153623 +0000" stop="20200108160101 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">The Sorrowful Battle</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108160101 +0000" stop="20200108161348 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108161348 +0000" stop="20200108163731 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Coffins and Cradles</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108163731 +0000" stop="20200108170030 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cartoon Planet</title>
+        <sub-title lang="en">The Dangerous Danger</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/I5Lgh6a.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108170030 +0000" stop="20200108172314 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">X-Men</title>
+        <sub-title lang="en">Out of the Past (Part 1)</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/ZSZ0x1m.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108172314 +0000" stop="20200108174834 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Mega Man</title>
+        <sub-title lang="en">Mega Man in the Moon</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/vhvmTlP.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108174834 +0000" stop="20200108181132 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Men in Black: The Series</title>
+        <sub-title lang="en">The Cold Sweat Syndrome</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/M2q5NRC.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108181132 +0000" stop="20200108183358 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Street Fighter: The Animated Series</title>
+        <sub-title lang="en">Chunnel Vision</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cCLSPil.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108183358 +0000" stop="20200108185600 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Spider-Man</title>
+        <sub-title lang="en">The Sting of the Scorpion</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/hprZiwl.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108185600 +0000" stop="20200108191932 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Thundercats</title>
+        <sub-title lang="en">Exodus</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/7TOnnN5.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108191932 +0000" stop="20200108194340 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ronin Warriors</title>
+        <sub-title lang="en">Friend or Foe</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/NYqBWaN.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108194340 +0000" stop="20200108200809 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Mobile Suit Gundam</title>
+        <sub-title lang="en">Escape</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/EXLbEng.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108200809 +0000" stop="20200108203330 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Robotech</title>
+        <sub-title lang="en">Volunteers</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/d2iQJ5T.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108203330 +0000" stop="20200108210000 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Reboot</title>
+        <sub-title lang="en">Mousetrap</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/CFaaZSh.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108210000 +0000" stop="20200108213004 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Pokemon</title>
+        <sub-title lang="en">Roll On, Pokemon!</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/VfdN6pP.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200108213004 +0000" stop="20200108220130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Teen Titans</title>
+        <sub-title lang="en">Sisters</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/Csz1Dr1.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200108220130 +0000" stop="20200108222526 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Danger From Above</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108222526 +0000" stop="20200108224957 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Goodness Eclipsed (Awakening of the Messiah of Silence? Stars of Destiny)</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108224957 +0000" stop="20200108231240 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Old Buu Emerges</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108231240 +0000" stop="20200108233559 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Earth Reborn</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108233559 +0000" stop="20200109000029 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Mobile Fighter G Gundam</title>
+        <sub-title lang="en">The Ruthless Fight! Schwarz's Last Match</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/WCckIMt.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109000029 +0000" stop="20200109001353 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Freeza: The Final Cut Part 3</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109001353 +0000" stop="20200109002612 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">There's Something About Maron</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109002612 +0000" stop="20200109003532 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Battlefield Ee-arth</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109003532 +0000" stop="20200109004823 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Cold Cuts</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109004823 +0000" stop="20200109010356 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">News of Future Past</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109010356 +0000" stop="20200109012644 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">The Powerpuff Girls</title>
+        <sub-title lang="en">Super Friends</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/8ULe6pE.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109012644 +0000" stop="20200109013817 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">Quick Shot Ed</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109013817 +0000" stop="20200109014649 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">2 Stupid Dogs</title>
+        <sub-title lang="en">Quark</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/wQWDVZi.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109014649 +0000" stop="20200109020130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Johnny Bravo</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/duW3ILx.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109020130 +0000" stop="20200109022518 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">The Grand Finals</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109022518 +0000" stop="20200109025003 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Next In Line</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109025003 +0000" stop="20200109031257 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Call to Action</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109031257 +0000" stop="20200109033622 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">People of Earth Unite</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109033622 +0000" stop="20200109040348 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">Betrayed by Home, Far Away</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109040348 +0000" stop="20200109041705 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109041705 +0000" stop="20200109044335 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Everyone's Entitled to My Opinion</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109044335 +0000" stop="20200109050059 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Brak Show</title>
+        <sub-title lang="en">Braklet, Prince of Spaceland</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/uGF2Olk.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109050059 +0000" stop="20200109052457 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cyborg 009</title>
+        <sub-title lang="en">Tears of Steel</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/pPqyK8x.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109052457 +0000" stop="20200109054937 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Yu Yu Hakusho: Ghost Files</title>
+        <sub-title lang="en">Kuwabara's Spirit Sword</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/zLgdAie.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109054937 +0000" stop="20200109061208 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Rurouni Kenshin</title>
+        <sub-title lang="en">Kyoto, the Engraved Memory</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/litCtMD.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109061208 +0000" stop="20200109063607 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Lupin the 3rd</title>
+        <sub-title lang="en">Gettin' Jigen with It</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/ttnXgu9.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109063607 +0000" stop="20200109070000 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ranma 1/2</title>
+        <sub-title lang="en">Enter Ryoga! The Eternal 'Lost Boy'</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/GZNzBTy.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109070000 +0000" stop="20200109072410 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Wolf's Rain</title>
+        <sub-title lang="en">Song of Sleep</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/RtRk8oq.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109072410 +0000" stop="20200109073747 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Aqua Teen Hunger Force</title>
+        <sub-title lang="en">The Shaving</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/hYYjVXJ.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109073747 +0000" stop="20200109080904 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Blue Submarine No. 6</title>
+        <sub-title lang="en">Blues</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/K8fPKnC.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109080904 +0000" stop="20200109083454 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Shin Chan</title>
+        <sub-title lang="en">Swimming, Diving, and Scuba Team</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/XWL4wlj.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109083454 +0000" stop="20200109090000 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Nadia: The Secret of Blue Water</title>
+        <sub-title lang="en">The Riddle of the Giant Sea Monsters</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/n9ylocT.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109090000 +0000" stop="20200109093004 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Pokemon</title>
+        <sub-title lang="en">Roll On, Pokemon!</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/VfdN6pP.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200109093004 +0000" stop="20200109100130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Teen Titans</title>
+        <sub-title lang="en">Sisters</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/Csz1Dr1.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200109100130 +0000" stop="20200109102526 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Danger From Above</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109102526 +0000" stop="20200109104957 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Goodness Eclipsed (Awakening of the Messiah of Silence? Stars of Destiny)</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109104957 +0000" stop="20200109111240 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Old Buu Emerges</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109111240 +0000" stop="20200109113559 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Earth Reborn</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109113559 +0000" stop="20200109120029 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Mobile Fighter G Gundam</title>
+        <sub-title lang="en">The Ruthless Fight! Schwarz's Last Match</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/WCckIMt.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109120029 +0000" stop="20200109121353 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Freeza: The Final Cut Part 3</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109121353 +0000" stop="20200109122612 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">There's Something About Maron</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109122612 +0000" stop="20200109123532 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Battlefield Ee-arth</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109123532 +0000" stop="20200109124823 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Cold Cuts</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109124823 +0000" stop="20200109130356 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">News of Future Past</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109130356 +0000" stop="20200109132644 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">The Powerpuff Girls</title>
+        <sub-title lang="en">Super Friends</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/8ULe6pE.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109132644 +0000" stop="20200109133817 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">Quick Shot Ed</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109133817 +0000" stop="20200109134649 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">2 Stupid Dogs</title>
+        <sub-title lang="en">Quark</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/wQWDVZi.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109134649 +0000" stop="20200109140130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Johnny Bravo</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/duW3ILx.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109140130 +0000" stop="20200109142518 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">The Grand Finals</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109142518 +0000" stop="20200109145003 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Next In Line</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109145003 +0000" stop="20200109151257 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Call to Action</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109151257 +0000" stop="20200109153622 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">People of Earth Unite</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109153622 +0000" stop="20200109160348 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">Betrayed by Home, Far Away</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109160348 +0000" stop="20200109161705 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109161705 +0000" stop="20200109164335 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Everyone's Entitled to My Opinion</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109164335 +0000" stop="20200109170030 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Brak Show</title>
+        <sub-title lang="en">Braklet, Prince of Spaceland</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/uGF2Olk.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109170030 +0000" stop="20200109172205 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">X-Men</title>
+        <sub-title lang="en">Out of the Past (Part 2)</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/ZSZ0x1m.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109172205 +0000" stop="20200109174730 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Mega Man</title>
+        <sub-title lang="en">20,000 Leaks under the Sea</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/vhvmTlP.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109174730 +0000" stop="20200109181054 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Men in Black: The Series</title>
+        <sub-title lang="en">The Puppy Love Syndrome</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/M2q5NRC.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109181054 +0000" stop="20200109183354 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Street Fighter: The Animated Series</title>
+        <sub-title lang="en">Strange Bedfellows</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cCLSPil.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109183354 +0000" stop="20200109185530 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Spider-Man</title>
+        <sub-title lang="en">The Spider Slayer</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/hprZiwl.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109185530 +0000" stop="20200109191900 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Silverhawks</title>
+        <sub-title lang="en">Gold Shield</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/dpR9jOG.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109191900 +0000" stop="20200109194303 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ronin Warriors</title>
+        <sub-title lang="en">Wildfire in the Sky</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/NYqBWaN.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109194303 +0000" stop="20200109200836 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Mobile Suit Zeta Gundam</title>
+        <sub-title lang="en">Black Gundam</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/Tqe7v2I.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109200836 +0000" stop="20200109203339 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Robotech</title>
+        <sub-title lang="en">Half Moon</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/d2iQJ5T.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109203339 +0000" stop="20200109210000 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Reboot</title>
+        <sub-title lang="en">Megaframe</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/CFaaZSh.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109210000 +0000" stop="20200109212951 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Pokemon</title>
+        <sub-title lang="en">Illusion Confusion!</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/VfdN6pP.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200109212951 +0000" stop="20200109220130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Batman: The Animated Series</title>
+        <sub-title lang="en">Avatar</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/nygJi6C.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200109220130 +0000" stop="20200109222517 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Number One Under The Moon</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109222517 +0000" stop="20200109224956 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Fiendish Ferns</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109224956 +0000" stop="20200109231242 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Spirit Bomb Triumphant</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109231242 +0000" stop="20200109233559 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Celebrations with Majin Buu</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109233559 +0000" stop="20200110000029 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Mobile Fighter G Gundam</title>
+        <sub-title lang="en">Battle Royal Begins! Dark Gundam Revived</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/WCckIMt.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110000029 +0000" stop="20200110003021 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack and the Scotsman, Part 2</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200110003021 +0000" stop="20200110010102 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack and the Ultra-robots</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200110010102 +0000" stop="20200110012402 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Courage the Cowardly Dog</title>
+        <sub-title lang="en">The Shadow of Courage / Dr. Le Quack, Amnesia Specialist</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/KD0PG3P.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110012402 +0000" stop="20200110013524 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">An Ed Too Many</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110013524 +0000" stop="20200110014330 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">What A Cartoon! Show</title>
+        <sub-title lang="en">The Powerpuff Girls: Crime 101</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/Vfe6dDZ.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110014330 +0000" stop="20200110015053 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cow and Chicken</title>
+        <sub-title lang="en">Ballerina Cow</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/0QYl7ZQ.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110015053 +0000" stop="20200110020130 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">I Am Weasel</title>
+        <sub-title lang="en">I Bee Weasel</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/b0n28MI.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110020130 +0000" stop="20200110022519 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">The Final Blow</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110022519 +0000" stop="20200110024958 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">The Science Of Love</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110024958 +0000" stop="20200110031253 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">He's Always Late</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110031253 +0000" stop="20200110033623 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Granddaughter Pan</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110033623 +0000" stop="20200110040706 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">Tallgeese Destroyed</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110040706 +0000" stop="20200110042959 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200110042959 +0000" stop="20200110050059 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Camp</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200110050059 +0000" stop="20200110052409 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Cyborg 009</title>
+        <sub-title lang="en">Search for the Professor!</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/pPqyK8x.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200110052409 +0000" stop="20200110054836 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Yu Yu Hakusho: Ghost Files</title>
+        <sub-title lang="en">Hard Fights for Yusuke</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/zLgdAie.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200110054836 +0000" stop="20200110061303 +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Tenchi Universe</title>
+        <sub-title lang="en">No Need for Discussions!</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/lZ8iahD.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200110061303 +0000" stop=" +0000" channel="Toonami%20Aftermath%20EST">
+        <title lang="en">Lupin the 3rd</title>
+        <sub-title lang="en">Madame Prefers Them Hand-Dipped</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/ttnXgu9.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108000029 -0300" stop="20200108003017 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack Tales</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200108003017 -0300" stop="20200108010102 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack and the Smackback</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200108010102 -0300" stop="20200108012356 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Courage the Cowardly Dog</title>
+        <sub-title lang="en">A Night at the Katz Motel / Cajun Granny Stew</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/KD0PG3P.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108012356 -0300" stop="20200108013519 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">Read All About Ed</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108013519 -0300" stop="20200108014238 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cow and Chicken</title>
+        <sub-title lang="en">Cow Instincts, Don't It?</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/0QYl7ZQ.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108014238 -0300" stop="20200108014952 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">I Am Weasel</title>
+        <sub-title lang="en">Take I.R. Out to the Ballgame</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/b0n28MI.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108014952 -0300" stop="20200108020130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dexter's Laboratory</title>
+        <sub-title lang="en">Blackfoot And Slim</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/hMP6ON2.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108020130 -0300" stop="20200108022519 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Krillin's Frantic Attack!</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108022519 -0300" stop="20200108025006 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">It's In The Cards</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108025006 -0300" stop="20200108031302 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Vegeta's Respect</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108031302 -0300" stop="20200108033623 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Minute of Desperation</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108033623 -0300" stop="20200108040101 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">The Sorrowful Battle</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108040101 -0300" stop="20200108041348 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108041348 -0300" stop="20200108043731 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Coffins and Cradles</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108043731 -0300" stop="20200108050059 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cartoon Planet</title>
+        <sub-title lang="en">The Dangerous Danger</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/I5Lgh6a.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108050059 -0300" stop="20200108052455 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cyborg 009</title>
+        <sub-title lang="en">At the End of the Battle</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/pPqyK8x.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108052455 -0300" stop="20200108054936 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Yu Yu Hakusho: Ghost Files</title>
+        <sub-title lang="en">The Search Begins</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/zLgdAie.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108054936 -0300" stop="20200108061211 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Rurouni Kenshin</title>
+        <sub-title lang="en">The Juppongatana Who Remain</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/litCtMD.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108061211 -0300" stop="20200108063612 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Lupin the 3rd</title>
+        <sub-title lang="en">Alter-Ego Maniac</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/ttnXgu9.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108063612 -0300" stop="20200108070000 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ranma 1/2</title>
+        <sub-title lang="en">Akane's Lost Love... These Things Happen, You Know</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/GZNzBTy.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200108070000 -0300" stop="20200108072530 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Wolf's Rain</title>
+        <sub-title lang="en">The Flower Maiden</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/RtRk8oq.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108072530 -0300" stop="20200108074034 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sealab 2021</title>
+        <sub-title lang="en">Tornado Shanks</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/AnkyrnS.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108074034 -0300" stop="20200108081906 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">FLCL</title>
+        <sub-title lang="en">FLCLimax</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cSD1zqo.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108081906 -0300" stop="20200108083454 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cromartie High School</title>
+        <sub-title lang="en">Joshua Tree</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4BYylmk.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108083454 -0300" stop="20200108090000 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Nadia: The Secret of Blue Water</title>
+        <sub-title lang="en">The Little Fugitives</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/n9ylocT.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200108090000 -0300" stop="20200108093033 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Pokemon</title>
+        <sub-title lang="en">A Sappy Ending</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/VfdN6pP.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200108093033 -0300" stop="20200108100130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Batman: The Animated Series</title>
+        <sub-title lang="en">A Bullet for Bullock</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/nygJi6C.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200108100130 -0300" stop="20200108102525 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Monster Beast Giran</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108102525 -0300" stop="20200108105003 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Heightened Hazard</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108105003 -0300" stop="20200108111246 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">True Saiyans Fight Alone</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108111246 -0300" stop="20200108113600 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Battle for the Universe Begins</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108113600 -0300" stop="20200108120029 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Mobile Fighter G Gundam</title>
+        <sub-title lang="en">The Ultimate Attack! Duel With Master Asia</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/WCckIMt.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108120029 -0300" stop="20200108123017 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack Tales</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200108123017 -0300" stop="20200108130102 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack and the Smackback</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200108130102 -0300" stop="20200108132356 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Courage the Cowardly Dog</title>
+        <sub-title lang="en">A Night at the Katz Motel / Cajun Granny Stew</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/KD0PG3P.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108132356 -0300" stop="20200108133519 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">Read All About Ed</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108133519 -0300" stop="20200108134238 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cow and Chicken</title>
+        <sub-title lang="en">Cow Instincts, Don't It?</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/0QYl7ZQ.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108134238 -0300" stop="20200108134952 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">I Am Weasel</title>
+        <sub-title lang="en">Take I.R. Out to the Ballgame</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/b0n28MI.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108134952 -0300" stop="20200108140130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dexter's Laboratory</title>
+        <sub-title lang="en">Blackfoot And Slim</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/hMP6ON2.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200108140130 -0300" stop="20200108142519 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Krillin's Frantic Attack!</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108142519 -0300" stop="20200108145006 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">It's In The Cards</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108145006 -0300" stop="20200108151302 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Vegeta's Respect</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108151302 -0300" stop="20200108153623 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Minute of Desperation</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108153623 -0300" stop="20200108160101 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">The Sorrowful Battle</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108160101 -0300" stop="20200108161348 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108161348 -0300" stop="20200108163731 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Coffins and Cradles</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108163731 -0300" stop="20200108170030 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cartoon Planet</title>
+        <sub-title lang="en">The Dangerous Danger</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/I5Lgh6a.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200108170030 -0300" stop="20200108172314 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">X-Men</title>
+        <sub-title lang="en">Out of the Past (Part 1)</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/ZSZ0x1m.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108172314 -0300" stop="20200108174834 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Mega Man</title>
+        <sub-title lang="en">Mega Man in the Moon</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/vhvmTlP.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108174834 -0300" stop="20200108181132 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Men in Black: The Series</title>
+        <sub-title lang="en">The Cold Sweat Syndrome</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/M2q5NRC.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108181132 -0300" stop="20200108183358 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Street Fighter: The Animated Series</title>
+        <sub-title lang="en">Chunnel Vision</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cCLSPil.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108183358 -0300" stop="20200108185600 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Spider-Man</title>
+        <sub-title lang="en">The Sting of the Scorpion</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/hprZiwl.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200108185600 -0300" stop="20200108191932 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Thundercats</title>
+        <sub-title lang="en">Exodus</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/7TOnnN5.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108191932 -0300" stop="20200108194340 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ronin Warriors</title>
+        <sub-title lang="en">Friend or Foe</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/NYqBWaN.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108194340 -0300" stop="20200108200809 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Mobile Suit Gundam</title>
+        <sub-title lang="en">Escape</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/EXLbEng.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108200809 -0300" stop="20200108203330 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Robotech</title>
+        <sub-title lang="en">Volunteers</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/d2iQJ5T.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108203330 -0300" stop="20200108210000 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Reboot</title>
+        <sub-title lang="en">Mousetrap</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/CFaaZSh.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200108210000 -0300" stop="20200108213004 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Pokemon</title>
+        <sub-title lang="en">Roll On, Pokemon!</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/VfdN6pP.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200108213004 -0300" stop="20200108220130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Teen Titans</title>
+        <sub-title lang="en">Sisters</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/Csz1Dr1.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200108220130 -0300" stop="20200108222526 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Danger From Above</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108222526 -0300" stop="20200108224957 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Goodness Eclipsed (Awakening of the Messiah of Silence? Stars of Destiny)</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108224957 -0300" stop="20200108231240 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Old Buu Emerges</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108231240 -0300" stop="20200108233559 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Earth Reborn</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200108233559 -0300" stop="20200109000029 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Mobile Fighter G Gundam</title>
+        <sub-title lang="en">The Ruthless Fight! Schwarz's Last Match</sub-title>
+        <date>20200108</date>
+        <icon src="https://i.imgur.com/WCckIMt.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109000029 -0300" stop="20200109001353 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Freeza: The Final Cut Part 3</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109001353 -0300" stop="20200109002612 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">There's Something About Maron</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109002612 -0300" stop="20200109003532 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Battlefield Ee-arth</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109003532 -0300" stop="20200109004823 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Cold Cuts</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109004823 -0300" stop="20200109010356 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">News of Future Past</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109010356 -0300" stop="20200109012644 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">The Powerpuff Girls</title>
+        <sub-title lang="en">Super Friends</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/8ULe6pE.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109012644 -0300" stop="20200109013817 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">Quick Shot Ed</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109013817 -0300" stop="20200109014649 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">2 Stupid Dogs</title>
+        <sub-title lang="en">Quark</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/wQWDVZi.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109014649 -0300" stop="20200109020130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Johnny Bravo</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/duW3ILx.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109020130 -0300" stop="20200109022518 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">The Grand Finals</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109022518 -0300" stop="20200109025003 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Next In Line</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109025003 -0300" stop="20200109031257 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Call to Action</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109031257 -0300" stop="20200109033622 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">People of Earth Unite</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109033622 -0300" stop="20200109040348 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">Betrayed by Home, Far Away</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109040348 -0300" stop="20200109041705 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109041705 -0300" stop="20200109044335 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Everyone's Entitled to My Opinion</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109044335 -0300" stop="20200109050059 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Brak Show</title>
+        <sub-title lang="en">Braklet, Prince of Spaceland</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/uGF2Olk.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109050059 -0300" stop="20200109052457 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cyborg 009</title>
+        <sub-title lang="en">Tears of Steel</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/pPqyK8x.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109052457 -0300" stop="20200109054937 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Yu Yu Hakusho: Ghost Files</title>
+        <sub-title lang="en">Kuwabara's Spirit Sword</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/zLgdAie.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109054937 -0300" stop="20200109061208 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Rurouni Kenshin</title>
+        <sub-title lang="en">Kyoto, the Engraved Memory</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/litCtMD.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109061208 -0300" stop="20200109063607 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Lupin the 3rd</title>
+        <sub-title lang="en">Gettin' Jigen with It</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/ttnXgu9.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109063607 -0300" stop="20200109070000 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ranma 1/2</title>
+        <sub-title lang="en">Enter Ryoga! The Eternal 'Lost Boy'</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/GZNzBTy.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200109070000 -0300" stop="20200109072410 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Wolf's Rain</title>
+        <sub-title lang="en">Song of Sleep</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/RtRk8oq.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109072410 -0300" stop="20200109073747 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Aqua Teen Hunger Force</title>
+        <sub-title lang="en">The Shaving</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/hYYjVXJ.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109073747 -0300" stop="20200109080904 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Blue Submarine No. 6</title>
+        <sub-title lang="en">Blues</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/K8fPKnC.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109080904 -0300" stop="20200109083454 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Shin Chan</title>
+        <sub-title lang="en">Swimming, Diving, and Scuba Team</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/XWL4wlj.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109083454 -0300" stop="20200109090000 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Nadia: The Secret of Blue Water</title>
+        <sub-title lang="en">The Riddle of the Giant Sea Monsters</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/n9ylocT.gif"/>
+        <category lang="en">All Kids Outta The Pool</category>
+    </programme>
+    <programme start="20200109090000 -0300" stop="20200109093004 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Pokemon</title>
+        <sub-title lang="en">Roll On, Pokemon!</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/VfdN6pP.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200109093004 -0300" stop="20200109100130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Teen Titans</title>
+        <sub-title lang="en">Sisters</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/Csz1Dr1.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200109100130 -0300" stop="20200109102526 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Danger From Above</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109102526 -0300" stop="20200109104957 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Goodness Eclipsed (Awakening of the Messiah of Silence? Stars of Destiny)</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109104957 -0300" stop="20200109111240 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Old Buu Emerges</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109111240 -0300" stop="20200109113559 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Earth Reborn</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109113559 -0300" stop="20200109120029 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Mobile Fighter G Gundam</title>
+        <sub-title lang="en">The Ruthless Fight! Schwarz's Last Match</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/WCckIMt.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109120029 -0300" stop="20200109121353 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Freeza: The Final Cut Part 3</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109121353 -0300" stop="20200109122612 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">There's Something About Maron</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109122612 -0300" stop="20200109123532 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Battlefield Ee-arth</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109123532 -0300" stop="20200109124823 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">Cold Cuts</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109124823 -0300" stop="20200109130356 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z: Abridged</title>
+        <sub-title lang="en">News of Future Past</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/qrtOjE4.gif"/>
+        <category lang="en">Special: DBZ Abridged</category>
+    </programme>
+    <programme start="20200109130356 -0300" stop="20200109132644 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">The Powerpuff Girls</title>
+        <sub-title lang="en">Super Friends</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/8ULe6pE.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109132644 -0300" stop="20200109133817 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">Quick Shot Ed</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109133817 -0300" stop="20200109134649 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">2 Stupid Dogs</title>
+        <sub-title lang="en">Quark</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/wQWDVZi.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109134649 -0300" stop="20200109140130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Johnny Bravo</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/duW3ILx.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200109140130 -0300" stop="20200109142518 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">The Grand Finals</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109142518 -0300" stop="20200109145003 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Next In Line</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109145003 -0300" stop="20200109151257 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Call to Action</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109151257 -0300" stop="20200109153622 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">People of Earth Unite</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109153622 -0300" stop="20200109160348 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">Betrayed by Home, Far Away</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109160348 -0300" stop="20200109161705 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109161705 -0300" stop="20200109164335 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Everyone's Entitled to My Opinion</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109164335 -0300" stop="20200109170030 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Brak Show</title>
+        <sub-title lang="en">Braklet, Prince of Spaceland</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/uGF2Olk.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200109170030 -0300" stop="20200109172205 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">X-Men</title>
+        <sub-title lang="en">Out of the Past (Part 2)</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/ZSZ0x1m.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109172205 -0300" stop="20200109174730 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Mega Man</title>
+        <sub-title lang="en">20,000 Leaks under the Sea</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/vhvmTlP.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109174730 -0300" stop="20200109181054 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Men in Black: The Series</title>
+        <sub-title lang="en">The Puppy Love Syndrome</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/M2q5NRC.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109181054 -0300" stop="20200109183354 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Street Fighter: The Animated Series</title>
+        <sub-title lang="en">Strange Bedfellows</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cCLSPil.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109183354 -0300" stop="20200109185530 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Spider-Man</title>
+        <sub-title lang="en">The Spider Slayer</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/hprZiwl.gif"/>
+        <category lang="en">Marvel vs Capcom</category>
+    </programme>
+    <programme start="20200109185530 -0300" stop="20200109191900 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Silverhawks</title>
+        <sub-title lang="en">Gold Shield</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/dpR9jOG.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109191900 -0300" stop="20200109194303 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ronin Warriors</title>
+        <sub-title lang="en">Wildfire in the Sky</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/NYqBWaN.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109194303 -0300" stop="20200109200836 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Mobile Suit Zeta Gundam</title>
+        <sub-title lang="en">Black Gundam</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/Tqe7v2I.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109200836 -0300" stop="20200109203339 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Robotech</title>
+        <sub-title lang="en">Half Moon</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/d2iQJ5T.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109203339 -0300" stop="20200109210000 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Reboot</title>
+        <sub-title lang="en">Megaframe</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/CFaaZSh.gif"/>
+        <category lang="en">Toonami O.G.</category>
+    </programme>
+    <programme start="20200109210000 -0300" stop="20200109212951 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Pokemon</title>
+        <sub-title lang="en">Illusion Confusion!</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/VfdN6pP.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200109212951 -0300" stop="20200109220130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Batman: The Animated Series</title>
+        <sub-title lang="en">Avatar</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/nygJi6C.gif"/>
+        <category lang="en">Classic Toon</category>
+    </programme>
+    <programme start="20200109220130 -0300" stop="20200109222517 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">Number One Under The Moon</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109222517 -0300" stop="20200109224956 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">Fiendish Ferns</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109224956 -0300" stop="20200109231242 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Spirit Bomb Triumphant</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109231242 -0300" stop="20200109233559 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Celebrations with Majin Buu</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200109233559 -0300" stop="20200110000029 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Mobile Fighter G Gundam</title>
+        <sub-title lang="en">Battle Royal Begins! Dark Gundam Revived</sub-title>
+        <date>20200109</date>
+        <icon src="https://i.imgur.com/WCckIMt.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110000029 -0300" stop="20200110003021 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack and the Scotsman, Part 2</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200110003021 -0300" stop="20200110010102 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Samurai Jack</title>
+        <sub-title lang="en">Jack and the Ultra-robots</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/twLpmyP.gif"/>
+        <category lang="en">Special: Samurai Jack</category>
+    </programme>
+    <programme start="20200110010102 -0300" stop="20200110012402 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Courage the Cowardly Dog</title>
+        <sub-title lang="en">The Shadow of Courage / Dr. Le Quack, Amnesia Specialist</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/KD0PG3P.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110012402 -0300" stop="20200110013524 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Ed Edd n' Eddy</title>
+        <sub-title lang="en">An Ed Too Many</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/igzgfih.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110013524 -0300" stop="20200110014330 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">What A Cartoon! Show</title>
+        <sub-title lang="en">The Powerpuff Girls: Crime 101</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/Vfe6dDZ.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110014330 -0300" stop="20200110015053 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cow and Chicken</title>
+        <sub-title lang="en">Ballerina Cow</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/0QYl7ZQ.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110015053 -0300" stop="20200110020130 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">I Am Weasel</title>
+        <sub-title lang="en">I Bee Weasel</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/b0n28MI.gif"/>
+        <category lang="en">Cartoon Cartoon</category>
+    </programme>
+    <programme start="20200110020130 -0300" stop="20200110022519 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball</title>
+        <sub-title lang="en">The Final Blow</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/cQBxAVU.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110022519 -0300" stop="20200110024958 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Sailor Moon</title>
+        <sub-title lang="en">The Science Of Love</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/TnI0NkT.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110024958 -0300" stop="20200110031253 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">He's Always Late</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110031253 -0300" stop="20200110033623 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Dragon Ball Z</title>
+        <sub-title lang="en">Granddaughter Pan</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/4qfad4o.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110033623 -0300" stop="20200110040706 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Gundam Wing</title>
+        <sub-title lang="en">Tallgeese Destroyed</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/XWp96IJ.gif"/>
+        <category lang="en">Toonami</category>
+    </programme>
+    <programme start="20200110040706 -0300" stop="20200110042959 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Space Ghost Coast to Coast</title>
+        <sub-title lang="en"></sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/7oi7Qxf.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200110042959 -0300" stop="20200110050059 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Home Movies</title>
+        <sub-title lang="en">Camp</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/VDMuEdj.gif"/>
+        <category lang="en">Ghost Planet</category>
+    </programme>
+    <programme start="20200110050059 -0300" stop="20200110052409 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Cyborg 009</title>
+        <sub-title lang="en">Search for the Professor!</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/pPqyK8x.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200110052409 -0300" stop="20200110054836 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Yu Yu Hakusho: Ghost Files</title>
+        <sub-title lang="en">Hard Fights for Yusuke</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/zLgdAie.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200110054836 -0300" stop="20200110061303 -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Tenchi Universe</title>
+        <sub-title lang="en">No Need for Discussions!</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/lZ8iahD.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+    <programme start="20200110061303 -0300" stop=" -0300" channel="Toonami%20Aftermath%20PST">
+        <title lang="en">Lupin the 3rd</title>
+        <sub-title lang="en">Madame Prefers Them Hand-Dipped</sub-title>
+        <date>20200110</date>
+        <icon src="https://i.imgur.com/ttnXgu9.gif"/>
+        <category lang="en">Midnight Run</category>
+    </programme>
+</tv>
