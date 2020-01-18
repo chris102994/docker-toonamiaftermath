@@ -15,7 +15,7 @@ RUN	echo "##### Downloading Runtime Packages #####" && \
 		install \
 			zip && \
 	echo "##### Downloading pip Packages #####" && \
-		pip3 install -r /app/ToonamiAftermath/requirements.txt && \
+		/usr/bin/pip3 install -r /app/ToonamiAftermath/requirements.txt && \
 	echo "##### Creating folders #####" && \
 		mkdir -p \
 			/data/ToonamiAftermath && \
