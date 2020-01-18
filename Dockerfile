@@ -13,10 +13,7 @@ COPY rootfs/ /
 # Setup Base Script
 RUN	echo "##### Downloading Runtime Packages #####" && \
 		install \
-			python3 zip && \
-	echo "##### Downloading Virtual Build Dependencies #####" && \
-		install --virtual build-dependencies \
-			py3-pip && \
+			zip && \
 	echo "##### Downloading pip Packages #####" && \
 		pip3 install -r /app/ToonamiAftermath/requirements.txt && \
 	echo "##### Creating folders #####" && \
@@ -24,8 +21,6 @@ RUN	echo "##### Downloading Runtime Packages #####" && \
 			/data/ToonamiAftermath && \
 	echo "##### Cron setup #####" && \
 		# Execute the cron job every 2 hours at 15 mins after.
-		echo "15	*/2	*	*	*	/app/ta-wrapper.sh >> /config/log/ToonamiAftermath.log" >> /etc/crontabs/root && \
-	echo "##### Cleaning Up #####" && \
-		remove build-dependencies
+		echo "15	*/2	*	*	*	/app/ta-wrapper.sh >> /config/log/ToonamiAftermath.log" >> /etc/crontabs/root
 ENV PYTHONPATH=/app/ToonamiAftermath/
 ENV FIRST_RUN=TRUE
