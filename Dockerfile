@@ -13,6 +13,7 @@ COPY rootfs/ /
 # Setup Base Script
 RUN	echo "##### Downloading Runtime Packages #####" && \
 		install \
+			python3 \
 			zip && \
 	echo "##### Downloading pip Packages #####" && \
 		python3 -m pip install -r /app/ToonamiAftermath/requirements.txt && \
