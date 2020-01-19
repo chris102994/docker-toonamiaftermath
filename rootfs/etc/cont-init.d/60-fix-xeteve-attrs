@@ -21,5 +21,3 @@ fi
 
 echo "If you wish to reset to the default parameters passed then remove the files in your mounted /data file."
 
-chown -R 900:900 /config
-chmod -R 0755 /config

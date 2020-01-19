@@ -15,15 +15,7 @@ if [ ! -f $DATA_PATH/ToonamiAftermath.m3u ]; then
 	cp /defaults/ToonamiAftermath.m3u $DATA_PATH
 fi
 
-
-# Ensure log Dir Exists
-if [ ! -d '/config/log' ]; then
-	mkdir -p '/config/log'
-fi
-
 chown -R 900:900 $DATA_PATH
 chmod -R 0755 $DATA_PATH
-chown -R 900:900 /config/log
-chmod -R 0755 /config/log
 
 chmod +x /app/ta-wrapper.sh
