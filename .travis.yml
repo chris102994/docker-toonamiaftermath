@@ -17,7 +17,9 @@ env:
   global:
   - DOCKER_REPO=christopher102994
   - DOCKER_NAME=docker-toonamiaftermath
-  - DOCKER_TAG=alpine-3.10
+  - DOCKER_FILE=Dockerfile
+  - IMAGE_TAG=alpine-3.10
+  - BASE_IMAGE=christopher102994/docker-xteve:alpine-3.10
 
 script:
   - tools/scripts/make_container.sh

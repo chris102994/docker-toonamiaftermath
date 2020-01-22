@@ -1,5 +1,6 @@
 # Pull the base image	
-FROM christopher102994/docker-xteve:alpine-3.10
+ARG BASE_IMAGE=unknown
+FROM ${BASE_IMAGE}
 MAINTAINER chris102994<chris102994@yahoo.com>
 
 ARG BUILD_DATE
