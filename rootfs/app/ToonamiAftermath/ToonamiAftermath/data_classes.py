@@ -40,15 +40,15 @@ class ProgramObject:
 
     def __init__(self, title: str, icon_url: str, start_time: str, time_offset: str,
                  end_time: str, channel_number: int, episode_name: str, date: str, block_name: str):
-        self.title = title
+        self.title = title.replace('&', 'and')
         self.icon_url = icon_url
         self.start_time = start_time
         self.time_offset = time_offset
         self.end_time = end_time
         self.channel_number = channel_number.replace(' ', '%20')
-        self.episode_name = episode_name
+        self.episode_name = episode_name.replace('&', 'and')
         self.date = date
-        self.block_name = block_name
+        self.block_name = block_name.replace('&', 'and')
 
     def to_string(self):
         return '    <programme start="{} {}" stop="{} {}" channel="{}">\n' \
