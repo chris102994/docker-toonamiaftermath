@@ -20,17 +20,17 @@ jobs:
       - git submodule update --init --remote
       - |
         tools/build/build_container.sh \
-        -e versions/alpine-3.10.env \
-        -e versions/docker-toonamiaftermath.env \
-        -b true \
-        -p true
+        --envfile versions/alpine-3.10.env \
+        --envfile versions/docker-toonamiaftermath.env \
+        --build \
+        --pushdr
 
   - stage: Git Tag & Docker Hub README
     script: 
       - git submodule update --init --remote
       - |
         tools/build/build_container.sh \
-        -e versions/docker-toonamiaftermath.env \
-        -g true \
-        -r true
+        --envfile versions/docker-toonamiaftermath.env \
+        --pushgt \
+        --pushrm
 
