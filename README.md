@@ -42,6 +42,10 @@ Container specific parameters passed at runtime. The format is `<external>:<inte
 | -e NUMBER_OF_STREAMS | Number of parallel connections that the container will re-stream. (Default=1) |
 | -e STREAM_BUFFER | What the container uses to re-stream. Options: '-'=none (Default), 'xteve'=xteve, 'ffmpeg' , 'vlc' |
 | -e XTEVE_PORT | This must match the port you map to the container so that xteve can correctly forward the stream. (Default=34400) |
+| -e USERNAME | The Username you wish to run as. (Optional) |
+| -e GROUPNAME | The Groupname you wish to run as. (Optional) |
+| -e PUID | The UID you wish to run and save files as. (Optional) |
+| -e PGID | The GID you wish to run and save files as. (Optional) |
 
 ## Application Setup
 
