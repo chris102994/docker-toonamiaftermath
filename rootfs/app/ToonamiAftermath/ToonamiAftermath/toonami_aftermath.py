@@ -14,16 +14,11 @@ class  ToonamiAftermathGuideScraper:
     def __init__(self):
         pass
 
-    def get_channels(self):
+    def get_channels(self, name: str, icon_url: str):
         channel_list = []
-        est_name = 'Toonami Aftermath EST'
-        pst_name = 'Toonami Aftermath PST'
-        icon_url = 'https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018'
         url = 'https://www.toonamiaftermath.com/'
 
-        obj = ChannelObject(est_name, url, icon_url)
-        channel_list.append(obj)
-        obj = ChannelObject(pst_name, url, icon_url)
+        obj = ChannelObject(name, url, icon_url)
         channel_list.append(obj)
 
         return channel_list
