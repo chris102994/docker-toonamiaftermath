@@ -3,7 +3,7 @@
 
 [![https://www.toonamiaftermath.com/](https://vignette.wikia.nocookie.net/toonami/images/0/0f/Toonami_aftermath_logo.png/revision/latest?cb=20121120205018)](https://www.toonamiaftermath.com/)
 
-This is a fork of [christopher102994](https://github.com/chris102994/docker-toonamiaftermath)'s original creation with the intent of adding additional streams from the site as well as pushing to Docker Hub for easier Unraid integration.
+This is a fork of [chris102994](https://github.com/chris102994/docker-toonamiaftermath)'s original creation with the intent of adding additional streams from the site as well as pushing to Docker Hub for easier Unraid integration.
 
 [Toonami Aftermath](https://www.toonamiaftermath.com/) is a Toonami revival effort, which began as a 24/7 stream, launched on January 18, 2010 with its website appearing a few months after that. It airs programs that have been broadcast on Toonami, and also Cartoon Network, Fox, and Kids WB, such as Ronin Warriors, Cartoon Cartoons, X-Men: The Animated Series, and Pokemon. 
 
@@ -13,7 +13,7 @@ This is a simple project that scrapes the website and generates an m3u playlist 
 
 
 ## Outside Packages
-* Built on christopher102994's [xteve Image](https://github.com/chris102994/docker-xteve)
+* Built on chris102994's [xteve Image](https://github.com/chris102994/docker-xteve)
 
 ## Docker
 ```
