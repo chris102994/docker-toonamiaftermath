@@ -38,6 +38,8 @@ class  ToonamiAftermathGuideScraper:
         for media_type in json_data:
             name = media_type.get('name', '')
             startdate = media_type.get('startDate', '')
+            # Placeholder
+            fullname = ''
             # Nested Item
             info = media_type.get('info', '')
             if info != '':
