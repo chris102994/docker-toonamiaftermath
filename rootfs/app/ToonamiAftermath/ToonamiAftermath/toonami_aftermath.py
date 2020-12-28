@@ -30,11 +30,15 @@ class  ToonamiAftermathGuideScraper:
         try:
             data = urlopen(url, context=context).read()
         except:
-            print('Error getting guide. Check your connection and ensure that toonamiaftermath.com is up')
+            print('Error getting guide for URL: {}, ChannelNumber: {}. Check your connection and ensure that toonamiaftermath.com is up.'.format(url, channelnumber))
             sys.exit(1)
 
-        json_data = json.loads(data)
-            
+        try:
+            json_data = json.loads(data)
+        except:
+            print('Channel with URL: {}, ChannelNumber: {} doesn\'t have guide data at this time.'.format(url, channelnumber))
+            return []
+                  
         for media_type in json_data:
             name = media_type.get('name', '')
             startdate = media_type.get('startDate', '')
