@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Config xmlns="http://pypi.org/project/xsdata" version="21.1">
+  <Output wsdl="false">
+    <Package>models</Package>
+    <Format>pydata</Format>
+    <Structure>filenames</Structure>
+  </Output>
+  <Conventions>
+    <ClassName case="pascalCase" safePrefix="type"/>
+    <FieldName case="camelCase" safePrefix="value"/>
+    <ModuleName case="camelCase" safePrefix="mod"/>
+    <PackageName case="camelCase" safePrefix="pkg"/>
+  </Conventions>
+  <Aliases>
+    <PackageName source="coreschemas" target="core"/>
+    <PackageName source="multicacheschemas" target="multi_cache"/>
+  </Aliases>
+</Config>

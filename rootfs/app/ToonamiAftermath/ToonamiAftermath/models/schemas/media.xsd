@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="blockName" type="xs:string"/>
+  <xs:element name="channel" type="xs:string"/>
+  <xs:element name="episode" type="xs:string"/>
+  <xs:element name="episodeNumber" type="xs:int"/>
+  <xs:element name="fullname" type="xs:string"/>
+  <xs:element name="image" type="xs:string"/>
+  <xs:element name="lang" type="xs:string"/>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="queryUrl" type="xs:string"/>
+  <xs:element name="channelUrl" type="xs:string"/>
+  <xs:element name="startDate" type="xs:dateTime"/>
+  <xs:element name="year" type="xs:string"/>
+
+  <xs:element name="info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="episode" minOccurs="0"/>
+        <xs:element ref="fullname" minOccurs="0"/>
+        <xs:element ref="image" minOccurs="0"/>
+        <xs:element ref="year" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="mediaType">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="series"/>
+        <xs:enumeration value="short"/>
+        <xs:enumeration value="movie"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="element">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="blockName" minOccurs="0"/>
+        <xs:element ref="episodeNumber" minOccurs="0"/>
+        <xs:element ref="info" minOccurs="0"/>
+        <xs:element ref="mediaType"/>
+        <xs:element ref="name" minOccurs="0"/>
+        <xs:element ref="startDate"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="element" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
