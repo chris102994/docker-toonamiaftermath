@@ -24,7 +24,7 @@ docker run \
 	-p 8000:8000 \
 	-v </path/to/appdata/config>:/config \
 	--restart unless-stopped \
-	christopher102994/docker-toonamiaftermath:alpine-3.10
+	christopher102994/docker-toonamiaftermath:ubuntu-18-latest
 ```
 
 ## Parameters
