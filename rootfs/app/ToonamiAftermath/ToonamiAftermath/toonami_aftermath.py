@@ -64,25 +64,6 @@ class ToonamiAftermath:
     all_episodes = mediaInfo.Root(element=[])
     TV_OBJECT: xmltv.Tv
 
-    def get_channels(self):
-        """
-        This method loads the channels from the data file for the project.
-        """
-        if not self.channels_data_file or not os.path.exists(self.channels_data_file):
-            self.LOGGER.fatal('Unable to find or open {}'.format(self.channels_data_file))
-            exit(1)
-
-        for channel in self.CHANNELS.element:
-            self.LOGGER.debug('Adapting channel {} to Channel object and adding it to TV_OBJECT.'.format(channel.displayName))
-            self.TV_OBJECT.channel.append(
-                Channel(
-                    id=channel.id,
-                    display_name=[DisplayName(content=[channel.displayName], lang=channel.lang)],
-                    icon=[Icon(src=channel.icon)],
-                    url=[channel.url]
-                )
-            )
-
     def main(self):
         self.TV_OBJECT = xmltv.Tv(
             date=str(date.today()),
@@ -121,6 +102,25 @@ class ToonamiAftermath:
                 serialize_clazz=self.all_episodes
             )
 
+    def get_channels(self):
+        """
+        This method loads the channels from the data file for the project.
+        """
+        if not self.channels_data_file or not os.path.exists(self.channels_data_file):
+            self.LOGGER.fatal('Unable to find or open {}'.format(self.channels_data_file))
+            exit(1)
+
+        for channel in self.CHANNELS.element:
+            self.LOGGER.debug('Adapting channel {} to Channel object and adding it to TV_OBJECT.'.format(channel.displayName))
+            self.TV_OBJECT.channel.append(
+                Channel(
+                    id=channel.id,
+                    display_name=[DisplayName(content=[channel.displayName], lang=channel.lang)],
+                    icon=[Icon(src=channel.icon)],
+                    url=[channel.url]
+                )
+            )
+
     def get_media(self, channel_object: taChannels.Element):
         """
         Get the media (guide) from the given data. If no URL is specified a mock guide object will be made.
@@ -136,6 +136,7 @@ class ToonamiAftermath:
                 self.LOGGER.error('The URL {} has no media info.'.format(prepared_url))
                 return
 
+            self.LOGGER.debug('Transforming json object from {} into XML and then again into a media XML object.'.format(prepared_url))
             media_objects = self.XML_PARSER.from_bytes(
                 dicttoxml.dicttoxml(
                     obj=json_object,
@@ -147,6 +148,7 @@ class ToonamiAftermath:
             )
 
             position = 0
+            self.LOGGER.debug('Looping through the media object elements to add additional data and scrape the media info.')
             for media_element in media_objects.element:
                 # If there's another element then add the current element's stop time.
                 if position < len(media_objects.element) - 1:
@@ -174,7 +176,7 @@ class ToonamiAftermath:
                 self.MEDIA_GUIDE_OBJECT.element.append(media_element)
                 position += 1
         else:
-            self.LOGGER.info('The channel {} doesn\'t have a TV guide - Making a Mock guide.'.format(
+            self.LOGGER.debug('The channel {} doesn\'t have a TV guide - Making a Mock guide.'.format(
                 channel_object.displayName))
             self.TV_OBJECT.programme.append(
                 Programme(
@@ -192,15 +194,18 @@ class ToonamiAftermath:
         :param media_info_url: The URL the media info is at.
         """
         found = False
+        self.LOGGER.debug('Checking if the mediaInfo for {} is present in our current list before grabbing it.'.format(media_info_url))
         for element in self.all_episodes.element:
             if element.queryUrl == media_info_url:
                 found = True
                 break
         if not found:
+            self.LOGGER.debug('mediaInfo data for {} wasn\'t found in list so we will scrape it.'.format(media_info_url))
             json_object = self.get_json_obj_from_url(json_url=media_info_url)
             if json_object is None:
                 return
 
+            self.LOGGER.debug('Transforming json object from {} into XML and then again into a mediaInfo XML object.'.format(media_info_url))
             media_info_element = self.XML_PARSER.from_bytes(
                 dicttoxml.dicttoxml(
                     obj=json_object,
@@ -223,11 +228,13 @@ class ToonamiAftermath:
         :return: the json object.
         """
         try:
+            self.LOGGER.debug('Attempting to download the json data from the URL {}.'.format(json_url))
             raw_data = urlopen(json_url, context=self.URL_CONTEXT).read()
             if len(raw_data) == 0:
+                self.LOGGER.debug('Couldn\'t scrape data from the url: {}'.format(json_url))
                 return None
             else:
-                # reconstructing the data as a python data object
+                self.LOGGER.debug('Successfully pulled data from the url {} so we will not reconstruct it into a python data object.'.format(json_url))
                 return [json.loads(raw_data)]
         except urllib.error.URLError as connectionError:
             self.LOGGER.error('Error getting data from URL {} due to connection issue.'.format(json_url), connectionError)
@@ -237,10 +244,12 @@ class ToonamiAftermath:
         Adapt the media guide object to the TV object.
         :return:
         """
+        self.LOGGER.debug('Going to adapt media objects into xmltv objects.')
         for media_object in self.MEDIA_GUIDE_OBJECT.element:
             media_info_object = None
             for element in self.all_episodes.element:
                 if element.queryUrl == media_object.queryUrl:
+                    self.LOGGER.debug('Found the corresponding mediaInfo object for the media_object with a url of {}.'.format(media_object.queryUrl))
                     media_info_object = element
                     break
 
@@ -299,19 +308,20 @@ class ToonamiAftermath:
         """
         Method that writes the loaded channels to an M3U file of your choosing.
         """
+        self.LOGGER.debug('Writing channels to {}.'.format(m3u_out_file))
         m3u_text = '#EXTM3U\n'
         for channel in self.CHANNELS.element:
             channel_text = '\n#EXTINF:-0 channel-id="{}" tvg-name="{}" tvg-language="{}" tvg-country="{}" tvg-id"{}" tvg-logo="{}" group-title="{}"\n{}\n' \
                 .format(
-                channel.id,
-                channel.displayName,
-                channel.lang,
-                channel.country,
-                channel.displayName,
-                channel.icon,
-                channel.group,
-                channel.url
-            )
+                    channel.id,
+                    channel.displayName,
+                    channel.lang,
+                    channel.country,
+                    channel.displayName,
+                    channel.icon,
+                    channel.group,
+                    channel.url
+                )
             m3u_text += channel_text
         open(m3u_out_file, 'w').write(m3u_text)
 
@@ -323,10 +333,9 @@ class ToonamiAftermath:
         :param new_format: The new format the datetime will return
         :return: The new dateformat
         """
+        self.LOGGER.debug('Converting the date_time_string {} to format {}.'.format(date_time_string, new_format))
         if date_time_string != '' and date_time_string is not None:
             return dateutil.parser.parse(date_time_string, fuzzy=True).__format__(new_format)
-        else:
-            return ''
 
 
 def main():
