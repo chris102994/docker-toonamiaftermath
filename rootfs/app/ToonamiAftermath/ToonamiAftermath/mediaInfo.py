@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from enum import Enum
 from typing import List, Optional
 from xsdata.models.datatype import XmlDate, XmlDateTime
 
@@ -50,11 +49,8 @@ class Aka:
 
     value: Optional[str] = field(
         default=None,
-    )
-    null: Optional[str] = field(
-        default=None,
         metadata={
-            "type": "Attribute",
+            "required": True,
         }
     )
 
@@ -90,7 +86,7 @@ class Creators:
     class Meta:
         name = "creators"
 
-    creator: List[str] = field(
+    creators: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -119,7 +115,6 @@ class Episode:
     airDate: Optional[str] = field(
         default=None,
         metadata={
-            "name": "airDate",
             "type": "Element",
             "required": True,
         }
@@ -127,7 +122,6 @@ class Episode:
     epNum: Optional[int] = field(
         default=None,
         metadata={
-            "name": "epNum",
             "type": "Element",
             "required": True,
         }
@@ -167,7 +161,7 @@ class Genres:
     class Meta:
         name = "genres"
 
-    genre: List[str] = field(
+    genres: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
@@ -228,6 +222,19 @@ class ProductionCo:
 
 
 @dataclass
+class QueryUrl:
+    class Meta:
+        name = "queryUrl"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
 class Rating:
     class Meta:
         name = "rating"
@@ -280,6 +287,19 @@ class SearchedName:
 
 
 @dataclass
+class SearchedYear:
+    class Meta:
+        name = "searchedYear"
+
+    value: Optional[int] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
 class Season:
     class Meta:
         name = "season"
@@ -297,13 +317,12 @@ class Series:
     class Meta:
         name = "series"
 
-    value: Optional["Series.Value"] = field(
+    value: Optional[str] = field(
         default=None,
+        metadata={
+            "required": True,
+        }
     )
-
-    class Value(Enum):
-        FALSE_VALUE = "False"
-        TRUE_VALUE = "True"
 
 
 @dataclass
@@ -339,11 +358,8 @@ class Tagline:
 
     value: Optional[str] = field(
         default=None,
-    )
-    null: Optional[str] = field(
-        default=None,
         metadata={
-            "type": "Attribute",
+            "required": True,
         }
     )
 
@@ -366,44 +382,32 @@ class Element:
     class Meta:
         name = "element"
 
-    v: Optional[int] = field(
-        default=None,
-        metadata={
-            "name": "__v",
-            "type": "Element",
-        }
-    )
-    id: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "_id",
-            "type": "Element",
-        }
-    )
-    aka: Optional[Aka] = field(
+    aka: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     contentRating: Optional[str] = field(
         default=None,
         metadata={
-            "name": "contentRating",
             "type": "Element",
+            "required": True,
         }
     )
     createdAt: Optional[XmlDateTime] = field(
         default=None,
         metadata={
-            "name": "createdAt",
             "type": "Element",
+            "required": True,
         }
     )
     creators: Optional[Creators] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     episode: Optional[Episode] = field(
@@ -416,32 +420,40 @@ class Element:
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     image: Optional[str] = field(
         default=None,
         metadata={
-            "name": "image",
             "type": "Element",
+            "required": True,
         }
     )
     imdbId: Optional[str] = field(
         default=None,
         metadata={
-            "name": "imdbId",
             "type": "Element",
+            "required": True,
         }
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     productionCo: Optional[ProductionCo] = field(
         default=None,
         metadata={
-            "name": "productionCo",
+            "type": "Element",
+            "required": True,
+        }
+    )
+    queryUrl: Optional[str] = field(
+        default=None,
+        metadata={
             "type": "Element",
         }
     )
@@ -449,77 +461,87 @@ class Element:
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     release: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     releaseDate: Optional[str] = field(
         default=None,
         metadata={
-            "name": "releaseDate",
             "type": "Element",
+            "required": True,
         }
     )
     searchedName: Optional[str] = field(
         default=None,
         metadata={
-            "name": "searchedName",
             "type": "Element",
+            "required": True,
         }
     )
-    searchedYear: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "searchedYear",
-            "type": "Element",
-        }
-    )
-    series: Optional["Element.Value"] = field(
+    searchedYear: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+        }
+    )
+    series: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "required": True,
         }
     )
     storyline: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     summary: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
-    tagline: Optional[Tagline] = field(
+    tagline: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )
     updatedAt: Optional[XmlDateTime] = field(
         default=None,
         metadata={
-            "name": "updatedAt",
             "type": "Element",
+            "required": True,
         }
     )
-    queryUrl: Optional[str] = field(
+    id: Optional[str] = field(
         default=None,
         metadata={
-            "name": "queryUrl",
+            "name": "_id",
             "type": "Element",
+            "required": True,
         }
     )
-
-    class Value(Enum):
-        FALSE_VALUE = "False"
-        TRUE_VALUE = "True"
+    v: Optional[int] = field(
+        default=None,
+        metadata={
+            "name": "__v",
+            "type": "Element",
+            "required": True,
+        }
+    )
 
 
 @dataclass

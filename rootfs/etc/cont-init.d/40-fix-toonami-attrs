@@ -10,11 +10,6 @@ if [ ! -d $DATA_PATH ]; then
 	mkdir -p $DATA_PATH
 fi
 
-# Ensure the Data folder contains the playlist
-if [ ! -f $DATA_PATH/ToonamiAftermath.m3u ]; then
-	cp /defaults/ToonamiAftermath.m3u $DATA_PATH
-fi
-
 chown -R 900:900 $DATA_PATH
 chmod -R 0755 $DATA_PATH
 

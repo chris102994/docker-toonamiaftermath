@@ -18,6 +18,32 @@ class BlockName:
 
 
 @dataclass
+class Channel:
+    class Meta:
+        name = "channel"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class ChannelUrl:
+    class Meta:
+        name = "channelUrl"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
 class Episode:
     class Meta:
         name = "episode"
@@ -90,13 +116,25 @@ class Info:
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
-    year: Optional[str] = field(
+    year: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
+        }
+    )
+
+
+@dataclass
+class Lang:
+    class Meta:
+        name = "lang"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
         }
     )
 
@@ -128,12 +166,52 @@ class Name:
         }
     )
 
+
+@dataclass
+class QueryUrl:
+    class Meta:
+        name = "queryUrl"
+
+    value: Optional[str] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class StartDate:
+    class Meta:
+        name = "startDate"
+
+    value: Optional[XmlDateTime] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
+@dataclass
+class StopDate:
+    class Meta:
+        name = "stopDate"
+
+    value: Optional[XmlDateTime] = field(
+        default=None,
+        metadata={
+            "required": True,
+        }
+    )
+
+
 @dataclass
 class Year:
     class Meta:
         name = "year"
 
-    value: Optional[XmlDateTime] = field(
+    value: Optional[int] = field(
         default=None,
         metadata={
             "required": True,
@@ -149,15 +227,24 @@ class Element:
     blockName: Optional[str] = field(
         default=None,
         metadata={
-            "name": "blockName",
             "type": "Element",
-            "required": True,
+        }
+    )
+    channel: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+        }
+    )
+    channelUrl: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
         }
     )
     episodeNumber: Optional[int] = field(
         default=None,
         metadata={
-            "name": "episodeNumber",
             "type": "Element",
         }
     )
@@ -167,73 +254,40 @@ class Element:
             "type": "Element",
         }
     )
+    lang: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+        }
+    )
     mediaType: Optional["Element.Value"] = field(
         default=None,
         metadata={
-            "name": "mediaType",
             "type": "Element",
-            "required": True,
         }
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
-            "required": True,
         }
     )
-
-    startDate: Optional[XmlDateTime] = field(
-        default=None,
-        metadata={
-            "name": "startDate",
-            "type": "Element",
-            "required": True,
-        }
-    )
-
-    stopDate: Optional[XmlDateTime] = field(
-        default=None,
-        metadata={
-            "name": "stopDate",
-            "type": "Element",
-            "required": True,
-        }
-    )
-
     queryUrl: Optional[str] = field(
         default=None,
         metadata={
-            "name": "queryUrl",
             "type": "Element",
-            "required": True,
         }
     )
-
-    channelUrl: Optional[str] = field(
+    startDate: Optional[XmlDateTime] = field(
         default=None,
         metadata={
-            "name": "channelUrl",
             "type": "Element",
-            "required": True,
         }
     )
-
-    lang: Optional[str] = field(
+    stopDate: Optional[XmlDateTime] = field(
         default=None,
         metadata={
-            "name": "lang",
             "type": "Element",
-            "required": True,
-        }
-    )
-
-    channel: Optional[str] = field(
-        default=None,
-        metadata={
-            "name": "channel",
-            "type": "Element",
-            "required": True,
         }
     )
 

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+PROCESS_NAME=nginx
+
+get_number_of_processes(){
+        mapfile -t PIDS < <( pgrep "${1}"  )
+        LENGTH=${#PIDS[@]}
+        echo "${LENGTH}"
+
+}
+
+
+EXIT_VALUE=1
+# Simple check to see if I can pgrep the process.
+# If you can then the process is up at the very least.
+if [ "$(get_number_of_processes "${PROCESS_NAME}")" -ne 0  ]; then
+    EXIT_VALUE=0
+fi
+
+exit ${EXIT_VALUE}

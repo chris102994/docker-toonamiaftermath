@@ -3,5 +3,7 @@
 set -u # Unset Variables are an error
 set -e # Exit on error
 
+cp /defaults/index.html /data/ToonamiAftermath/
+
 # Initial Run
-/app/ta-wrapper.sh >> /config/log/ToonamiAftermath.log
+/app/ta-wrapper.sh

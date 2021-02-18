@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="country" type="xs:string"/>
+  <xs:element name="display-name" type="xs:string"/>
+  <xs:element name="episode_query_url" type="xs:anyURI"/>
+  <xs:element name="group" type="xs:string"/>
+  <xs:element name="icon" type="xs:string"/>
+  <xs:element name="id" type="xs:string"/>
+  <xs:element name="lang" type="xs:string"/>
+  <xs:element name="offset" type="xs:string"/>
+  <xs:element name="schedule_url" type="xs:anyURI"/>
+  <xs:element name="url" type="xs:anyURI"/>
+
+  <xs:element name="element">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="display-name"/>
+        <xs:element ref="lang"/>
+        <xs:element ref="country"/>
+        <xs:element ref="icon"/>
+        <xs:element ref="url"/>
+        <xs:element ref="schedule_url" minOccurs="0"/>
+        <xs:element ref="episode_query_url" minOccurs="0"/>
+        <xs:element ref="group"/>
+        <xs:element ref="offset"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="element" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

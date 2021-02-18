@@ -1,0 +1,62 @@
+# Pull the base image	
+ARG BASE_IMAGE=unknown
+FROM ${BASE_IMAGE}
+MAINTAINER chris102994<chris102994@yahoo.com>
+
+ARG BUILD_DATE
+ARG VERSION
+ARG VCS_REF
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/chris102994/docker-toonamiaftermath"
+# Add Local Files
+COPY rootfs/ /
+
+ENV LC_ALL=C.UTF-8
+#Setup base script
+RUN    echo "##### Downloading Runtime Packages #####" && \
+		inst-pkg \
+            libxml2-dev \
+            libxslt-dev \
+            nginx \
+			python3 \
+            python3-pip \
+			zip && \
+	echo "##### Creating folders #####" && \
+		mkdir -p \
+			/data/ToonamiAftermath \
+            /deps/xmltv && \
+	echo "##### Downloading pip Packages #####" && \
+        yes | python3 -m pip install wheel setuptools && \
+		yes | python3 -m pip install -r /app/ToonamiAftermath/requirements.txt && \
+        yes | python3 -m pip uninstall wheel setuptools && \
+	echo "##### Cron setup #####" && \
+		# Execute the cron job every 2 hours at 15 mins after.
+		echo "0	*/12	*	*	*	root /app/ta-wrapper.sh >> /config/log/ToonamiAftermath.log" >> /etc/crontab && \
+    echo "##### Removing Unnecessary NGINX Files#####" && \
+        rm -rf \
+            /etc/init.d/* \
+            /etc/nginx/nginx.conf \
+            /etc/logrotate.d/nginx \
+            /etc/nginx/conf.d \
+            /etc/nginx/modules \
+            /var/lib/nginx/* \
+            /var/log/nginx \
+            /var/www && \
+    echo "#### Setting up users and groups for nginx ####" && \
+        mkdir -p \
+            /config/log/nginx \
+            /config/certs && \
+        useradd -u 901 \
+                --system \
+                --home-dir /dev/null \
+                --no-create-home \
+                --shell /sbin/nologin \
+                nginx && \
+        ln -s /config/log/nginx /var/lib/nginx/logs && \
+    echo "#### TODO: REMOVE ####" && \
+    	inst-pkg \
+    		vim \
+    		wget \
+    		unzip
+ENV PYTHONPATH=/app/ToonamiAftermath/
+ENV FIRST_RUN=TRUE

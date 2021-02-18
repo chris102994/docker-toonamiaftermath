@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="airDate" type="xs:string"/>
+  <xs:element name="aka" type="xs:string"/>
+  <xs:element name="contentRating" type="xs:string"/>
+  <xs:element name="createdAt" type="xs:dateTime"/>
+  <xs:element name="epNum" type="xs:short"/>
+  <xs:element name="image" type="xs:string"/>
+  <xs:element name="imdbId" type="xs:string"/>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="queryUrl" type="xs:anyURI"/>
+  <xs:element name="rating" type="xs:float"/>
+  <xs:element name="release" type="xs:string"/>
+  <xs:element name="releaseDate" type="xs:string"/>
+  <xs:element name="searchedName" type="xs:string"/>
+  <xs:element name="searchedYear" type="xs:short"/>
+  <xs:element name="season" type="xs:byte"/>
+  <xs:element name="series" type="xs:string"/>
+  <xs:element name="storyline" type="xs:string"/>
+  <xs:element name="summary" type="xs:string"/>
+  <xs:element name="tagline" type="xs:string"/>
+  <xs:element name="updatedAt" type="xs:dateTime"/>
+  <xs:element name="_id" type="xs:string"/>
+  <xs:element name="__v" type="xs:byte"/>
+
+  <xs:element name="creators">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="creators" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="genres">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="genres" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="productionCo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="productionCo" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="episode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="airDate"/>
+        <xs:element ref="epNum"/>
+        <xs:element ref="image"/>
+        <xs:element ref="name"/>
+        <xs:element ref="season"/>
+        <xs:element ref="summary"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="element">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="aka"/>
+        <xs:element ref="contentRating"/>
+        <xs:element ref="createdAt"/>
+        <xs:element ref="creators"/>
+        <xs:element ref="episode" minOccurs="0"/>
+        <xs:element ref="genres"/>
+        <xs:element ref="image"/>
+        <xs:element ref="imdbId"/>
+        <xs:element ref="name"/>
+        <xs:element ref="productionCo"/>
+        <xs:element ref="queryUrl" minOccurs="0"/>
+        <xs:element ref="rating"/>
+        <xs:element ref="release"/>
+        <xs:element ref="releaseDate"/>
+        <xs:element ref="searchedName"/>
+        <xs:element ref="searchedYear" minOccurs="0"/>
+        <xs:element ref="series"/>
+        <xs:element ref="storyline"/>
+        <xs:element ref="summary"/>
+        <xs:element ref="tagline"/>
+        <xs:element ref="updatedAt"/>
+        <xs:element ref="_id"/>
+        <xs:element ref="__v"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="element" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

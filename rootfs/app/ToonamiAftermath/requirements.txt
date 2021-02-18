@@ -1,1 +1,5 @@
+dicttoxml
+python-dateutil
+py-xmltv
 requests
+xsdata

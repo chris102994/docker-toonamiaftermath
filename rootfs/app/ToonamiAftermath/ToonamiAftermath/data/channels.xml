@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <element>
+        <id>1</id>
+        <display-name>Toonami Aftermath EST</display-name>
+        <lang>en</lang>
+        <country>us</country>
+        <icon>https://imgur.com/NkYPoLH.png</icon>
+        <url>http://api.toonamiaftermath.com:3000/est/playlist.m3u8?useHttps=true</url>
+        <schedule_url>https://api.toonamiaftermath.com/media?scheduleName=Toonami%20Aftermath%20EST</schedule_url>
+        <episode_query_url>https://api.toonamiaftermath.com/mediainfo</episode_query_url>
+        <group>Toonami Aftermath</group>
+        <offset>+0000</offset>
+    </element>
+
+    <element>
+        <id>2</id>
+        <display-name>Toonami Aftermath PST</display-name>
+        <lang>en</lang>
+        <country>us</country>
+        <icon>https://imgur.com/NkYPoLH.png</icon>
+        <url>http://api.toonamiaftermath.com:3000/est/playlist.m3u8?streamDelay=180&amp;useHttps=true</url>
+        <schedule_url>https://api.toonamiaftermath.com/media?scheduleName=Toonami%20Aftermath%20EST</schedule_url>
+        <episode_query_url>https://api.toonamiaftermath.com/mediainfo</episode_query_url>
+        <group>Toonami Aftermath</group>
+        <offset>+0300</offset>
+    </element>
+
+    <element>
+        <id>3</id>
+        <display-name>Toonami Aftermath Movies</display-name>
+        <lang>en</lang>
+        <country>us</country>
+        <icon>https://imgur.com/NkYPoLH.png</icon>
+        <url>http://api.toonamiaftermath.com:3000/movies/playlist.m3u8?useHttps=true</url>
+        <group>Toonami Aftermath</group>
+        <offset>+0000</offset>
+    </element>
+
+    <element>
+        <id>4</id>
+        <display-name>Snickelodeon EST</display-name>
+        <lang>en</lang>
+        <country>us</country>
+        <icon>https://vignette.wikia.nocookie.net/ultraverse/images/a/a9/Cartoonverse_-_Nickelodeon_-3.png/revision/latest/scale-to-width-down/1000?cb=20200710152142</icon>
+        <url>http://api.toonamiaftermath.com:3000/snick-est/playlist.m3u8?useHttps=true</url>
+        <schedule_url>https://api.toonamiaftermath.com/media?scheduleName=Snickelodeon%20EST</schedule_url>
+        <episode_query_url>https://api.toonamiaftermath.com/mediainfo</episode_query_url>
+        <group>Toonami Aftermath</group>
+        <offset>+0000</offset>
+    </element>
+
+    <element>
+        <id>5</id>
+        <display-name>Snickelodeon PST</display-name>
+        <lang>en</lang>
+        <country>us</country>
+        <icon>https://vignette.wikia.nocookie.net/ultraverse/images/a/a9/Cartoonverse_-_Nickelodeon_-3.png/revision/latest/scale-to-width-down/1000?cb=20200710152142</icon>
+        <url>http://api.toonamiaftermath.com:3000/snick-est/playlist.m3u8?streamDelay=180&amp;useHttps=true</url>
+        <schedule_url>https://api.toonamiaftermath.com/media?scheduleName=Snickelodeon%20EST</schedule_url>
+        <episode_query_url>https://api.toonamiaftermath.com/mediainfo</episode_query_url>
+        <group>Toonami Aftermath</group>
+        <offset>+0300</offset>
+    </element>
+
+    <element>
+        <id>6</id>
+        <display-name>MTV97 EST</display-name>
+        <lang>en</lang>
+        <country>us</country>
+        <icon>https://i.imgur.com/TuOt3YF.png</icon>
+        <url>http://api.toonamiaftermath.com:3000/mtv97/playlist.m3u8?useHttps=true</url>
+        <group>Toonami Aftermath</group>
+        <offset>+0000</offset>
+    </element>
+
+    <element>
+        <id>7</id>
+        <display-name>MTV97 PST</display-name>
+        <lang>en</lang>
+        <country>us</country>
+        <icon>https://i.imgur.com/TuOt3YF.png</icon>
+        <url>http://api.toonamiaftermath.com:3000/mtv97/playlist.m3u8?streamDelay=180&amp;useHttps=true</url>
+        <group>Toonami Aftermath</group>
+        <offset>+0300</offset>
+    </element>
+
+    <element>
+        <id>8</id>
+        <display-name>Toonami Aftermath Radio</display-name>
+        <lang>en</lang>
+        <country>us</country>
+        <icon>https://imgur.com/NkYPoLH.png</icon>
+        <url>http://api.toonamiaftermath.com:3000/radio/playlist.m3u8?useHttps=true</url>
+        <group>Toonami Aftermath</group>
+        <offset>+0000</offset>
+    </element>
+</root>

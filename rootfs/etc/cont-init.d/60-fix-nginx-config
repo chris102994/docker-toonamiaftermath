@@ -1,0 +1,17 @@
+#!/usr/bin/with-contenv bash
+
+set -u # Unset Variables are an error
+set -e # Exit on error
+
+# Ensure Data folder Exists
+DATA_PATH='/defaults/nginx'
+DEST_PATH='/etc/nginx'
+
+echo "Ensuring proper NGINX configuration."
+cp $DATA_PATH/nginx.conf $DEST_PATH/
+cp $DATA_PATH/default_site.conf $DEST_PATH/
+
+chown -R 901:901 $DATA_PATH
+chmod -R 0755 $DATA_PATH
+
+chmod +x /app/ta-wrapper.sh
