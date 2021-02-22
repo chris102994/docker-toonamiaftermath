@@ -279,7 +279,7 @@ class ToonamiAftermath:
                     _title = [Title(content=[media_info_object.name], lang=media_object.lang)]
                     if media_info_object.episode is not None:
                         _desc = [Desc(content=[media_info_object.episode.summary], lang=media_object.lang)]
-                        _episode_num = [EpisodeNum(content=['{}.{}'.format(media_info_object.episode.season, media_info_object.episode.epNum)], system='xmltv_ns')]
+                        _episode_num = [EpisodeNum(content=['{}.{}.0/1'.format(media_info_object.episode.season - 1, media_info_object.episode.epNum - 1)], system='xmltv_ns')]
                         _sub_title = [SubTitle(content=[media_info_object.episode.name], lang=media_object.lang)]
 
                 self.TV_OBJECT.programme.append(
