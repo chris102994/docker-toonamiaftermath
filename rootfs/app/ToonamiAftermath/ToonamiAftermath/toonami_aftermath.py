@@ -1,5 +1,5 @@
 from datetime import date, datetime, timedelta
-import dateutil.parser
+from dateutil import rrule, parser
 import dicttoxml
 import json
 import logging
@@ -17,6 +17,7 @@ from ToonamiAftermath import media, mediaInfo, taChannels
 
 _NEW_DATE_FORMAT_MINIMAL = '%Y%m%d'
 _NEW_DATE_FORMAT = '%Y%m%d%H%M%S %z'
+_NEW_DATE_FORMAT_NO_TZ = '%Y%m%d%H%M%S'
 _EXCLUDED_STRINGS = [
     'a.k.a. Cartoon',
     'IMDbPro',
@@ -176,17 +177,24 @@ class ToonamiAftermath:
                 self.MEDIA_GUIDE_OBJECT.element.append(media_element)
                 position += 1
         else:
-            self.LOGGER.debug('The channel {} doesn\'t have a TV guide - Making a Mock guide.'.format(
-                channel_object.displayName))
-            self.TV_OBJECT.programme.append(
-                Programme(
-                    clumpidx=None,
-                    title=[Title(content=[channel_object.displayName], lang=channel_object.lang)],
-                    channel=channel_object.id,
-                    start=datetime.now().strftime(_NEW_DATE_FORMAT),
-                    stop=(datetime.now() + timedelta(days=1)).strftime(_NEW_DATE_FORMAT)
+            _start_time = datetime.now().replace(minute=0, second=0, microsecond=0)
+            _end_time = _start_time + timedelta(days=1)
+            self.LOGGER.debug('The channel {} doesn\'t have a TV guide - Making a 24 hour Mock guide from {} until {}.'.format(
+                channel_object.displayName, _start_time, _end_time))
+            for block in rrule.rrule(rrule.HOURLY, dtstart=_start_time, until=_end_time):
+                _block_start_time = self.get_proper_date_time(block, _NEW_DATE_FORMAT_NO_TZ)
+                _block_end_time = self.get_proper_date_time(block + timedelta(hours=1), _NEW_DATE_FORMAT_NO_TZ)
+                self.LOGGER.debug('Making 1 hour block from {} until {}.'.format(_block_start_time, _block_end_time))
+                self.TV_OBJECT.programme.append(
+                    Programme(
+                        clumpidx=None,
+                        title=[Title(content=[channel_object.displayName], lang=channel_object.lang)],
+                        channel=channel_object.id,
+                        start=_block_start_time,
+                        stop=_block_end_time
+                    )
                 )
-            )
+                _start_time = _end_time
 
     def get_media_info(self, media_info_url: str):
         """
@@ -335,7 +343,10 @@ class ToonamiAftermath:
         """
         self.LOGGER.debug('Converting the date_time_string {} to format {}.'.format(date_time_string, new_format))
         if date_time_string != '' and date_time_string is not None:
-            return dateutil.parser.parse(date_time_string, fuzzy=True).__format__(new_format)
+            if type(date_time_string) is datetime:
+                return date_time_string.strftime(new_format)
+            else:
+                return parser.parse(date_time_string, fuzzy=True).__format__(new_format)
 
 
 def main():
