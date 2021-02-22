@@ -188,10 +188,11 @@ class ToonamiAftermath:
                 self.TV_OBJECT.programme.append(
                     Programme(
                         clumpidx=None,
-                        title=[Title(content=[channel_object.displayName], lang=channel_object.lang)],
                         channel=channel_object.id,
+                        icon=[Icon(src=channel_object.icon)],
                         start=_block_start_time,
-                        stop=_block_end_time
+                        stop=_block_end_time,
+                        title=[Title(content=[channel_object.displayName], lang=channel_object.lang)]
                     )
                 )
                 _start_time = _end_time
