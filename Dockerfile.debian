@@ -31,7 +31,7 @@ RUN    echo "##### Downloading Runtime Packages #####" && \
         yes | python3 -m pip uninstall wheel setuptools && \
 	echo "##### Cron setup #####" && \
 		# Execute the cron job every 2 hours at 15 mins after.
-		echo "0	*/12	*	*	*	root /app/ta-wrapper.sh >> /config/log/ToonamiAftermath.log" >> /etc/crontab && \
+		echo "0	*/12	*	*	*	root /app/ta-wrapper.sh" >> /etc/crontab && \
     echo "##### Removing Unnecessary NGINX Files#####" && \
         rm -rf \
             /etc/init.d/* \
@@ -52,11 +52,6 @@ RUN    echo "##### Downloading Runtime Packages #####" && \
                 --no-create-home \
                 --shell /sbin/nologin \
                 nginx && \
-        ln -s /config/log/nginx /var/lib/nginx/logs && \
-    echo "#### TODO: REMOVE ####" && \
-    	inst-pkg \
-    		vim \
-    		wget \
-    		unzip
+        ln -s /config/log/nginx /var/lib/nginx/logs
 ENV PYTHONPATH=/app/ToonamiAftermath/
 ENV FIRST_RUN=TRUE
