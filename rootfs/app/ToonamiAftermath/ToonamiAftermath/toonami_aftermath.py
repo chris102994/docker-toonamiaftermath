@@ -1,4 +1,6 @@
 from datetime import date, datetime, timedelta
+from typing import Any
+
 from dateutil import rrule, parser
 import dicttoxml
 import json
@@ -10,6 +12,7 @@ import urllib
 from urllib.request import urlopen
 from xmltv.models import *
 from xmltv import xmltv_helpers
+from xsdata.formats.converter import Converter, converter
 from xsdata.formats.dataclass.context import XmlContext
 from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers.config import SerializerConfig
@@ -18,12 +21,7 @@ from ToonamiAftermath import media, mediaInfo, taChannels
 _NEW_DATE_FORMAT_MINIMAL = '%Y%m%d'
 _NEW_DATE_FORMAT = '%Y%m%d%H%M%S %z'
 _NEW_DATE_FORMAT_NO_TZ = '%Y%m%d%H%M%S'
-_EXCLUDED_STRINGS = [
-    'a.k.a. Cartoon',
-    'IMDbPro',
-    'See full cast & crew',
-    'See more'
-]
+
 
 class ToonamiAftermath:
     """
@@ -225,9 +223,6 @@ class ToonamiAftermath:
                 mediaInfo.Element
             )
             media_info_element.queryUrl = media_info_url
-            self.LOGGER.debug('Clearing out un-needed data from the media info element for: {}.'.format(media_info_element))
-            media_info_element.productionCo.productionCo = [producer for producer in media_info_element.productionCo.productionCo if producer not in _EXCLUDED_STRINGS]
-            media_info_element.creators.creators = [creator for creator in media_info_element.creators.creators if creator not in _EXCLUDED_STRINGS]
             self.all_episodes.element.append(media_info_element)
 
     def get_json_obj_from_url(self, json_url: str):
@@ -285,7 +280,6 @@ class ToonamiAftermath:
                     _rating = [xmltv.Rating(value=media_info_object.contentRating, system='VCHIP')]
                     _star_rating = [StarRating(value='{}/{}'.format(media_info_object.rating, 10), system='imdb')]
                     _sub_title = [SubTitle(content=[media_info_object.name], lang=media_object.lang)]
-                    _title = [Title(content=[media_info_object.name], lang=media_object.lang)]
                     if media_info_object.episode is not None:
                         _desc = [Desc(content=[media_info_object.episode.summary], lang=media_object.lang)]
                         _episode_num = [EpisodeNum(content=['{}.{}.0/1'.format(media_info_object.episode.season - 1, media_info_object.episode.epNum - 1)], system='xmltv_ns')]
@@ -348,6 +342,30 @@ class ToonamiAftermath:
                 return date_time_string.strftime(new_format)
             else:
                 return parser.parse(date_time_string, fuzzy=True).__format__(new_format)
+
+
+class CustomStringConverter(Converter):
+    """
+    This is a custom Proxy Converter to clean data as it's deserialized.
+    """
+    _EXCLUDED_STRINGS = [
+        'a.k.a. Cartoon',
+        'IMDbPro',
+        'See full cast & crew',
+        'See more'
+    ]
+
+    def deserialize(self, value: str, **kwargs: Any) -> str or None:
+        if isinstance(value, str):
+            if value in self._EXCLUDED_STRINGS:
+                return None
+            return value
+
+    def serialize(self, value: Any, **kwargs: Any) -> str:
+        return str(value)
+
+
+converter.register_converter(str, CustomStringConverter())
 
 
 def main():
