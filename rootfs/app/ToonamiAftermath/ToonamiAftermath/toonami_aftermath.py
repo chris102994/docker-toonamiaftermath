@@ -3,6 +3,7 @@ from typing import Any
 
 from dateutil import rrule, parser
 import dicttoxml
+from jinja2 import Template
 import json
 import logging
 import os
@@ -311,22 +312,16 @@ class ToonamiAftermath:
         """
         Method that writes the loaded channels to an M3U file of your choosing.
         """
+        m3u_template = Template("""#EXTM3U
+                {% for channel in channels %}
+#EXTINF:-0 channel-id="{{ channel.id }}" tvg-name="{{ channel.displayName }}" tvg-language="{{ channel.lang }}" tvg-country="{{ channel.country }}" tvg-id"{{ channel.displayName }}" tvg-logo="{{ channel.icon }}" group-title="{{ channel.group }}", {{ channel.displayName }}
+{{ channel.url }}
+                {% endfor -%}
+                """).render(
+            channels=self.CHANNELS.element
+        )
         self.LOGGER.debug('Writing channels to {}.'.format(m3u_out_file))
-        m3u_text = '#EXTM3U\n'
-        for channel in self.CHANNELS.element:
-            channel_text = '\n#EXTINF:-0 channel-id="{}" tvg-name="{}" tvg-language="{}" tvg-country="{}" tvg-id"{}" tvg-logo="{}" group-title="{}"\n{}\n' \
-                .format(
-                    channel.id,
-                    channel.displayName,
-                    channel.lang,
-                    channel.country,
-                    channel.displayName,
-                    channel.icon,
-                    channel.group,
-                    channel.url
-                )
-            m3u_text += channel_text
-        open(m3u_out_file, 'w').write(m3u_text)
+        open(m3u_out_file, 'w').write(m3u_template)
 
     def get_proper_date_time(self, date_time_string, new_format):
         """

@@ -1,4 +1,5 @@
 dicttoxml
+jinja2
 python-dateutil
 py-xmltv
 requests
