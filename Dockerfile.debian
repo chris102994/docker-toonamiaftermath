@@ -28,7 +28,7 @@ RUN    echo "##### Downloading Runtime Packages #####" && \
 	echo "##### Downloading pip Packages #####" && \
         yes | python3 -m pip install wheel setuptools && \
 		yes | python3 -m pip install -r /app/ToonamiAftermath/requirements.txt && \
-        yes | python3 -m pip uninstall wheel setuptools && \
+        yes | python3 -m pip uninstall wheel && \
 	echo "##### Cron setup #####" && \
 		# Execute the cron job every 2 hours at 15 mins after.
 		echo "0	*/12	*	*	*	root /app/ta-wrapper.sh" >> /etc/crontab && \
