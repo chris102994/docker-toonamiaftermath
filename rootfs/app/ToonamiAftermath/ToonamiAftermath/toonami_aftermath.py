@@ -278,7 +278,7 @@ class ToonamiAftermath:
                     _date = self.get_proper_date_time(media_info_object.releaseDate, _NEW_DATE_FORMAT_MINIMAL)
                     _desc = [Desc(content=[media_info_object.summary], lang=media_object.lang)]
                     _icon = [Icon(src=media_info_object.image)]
-                    _rating = [xmltv.Rating(value=media_info_object.contentRating, system='VCHIP')]
+                    _rating = [xmltv_helpers.get_rating_object(media_info_object.contentRating)]
                     _star_rating = [StarRating(value='{}/{}'.format(media_info_object.rating, 10), system='imdb')]
                     _sub_title = [SubTitle(content=[media_info_object.name], lang=media_object.lang)]
                     if media_info_object.episode is not None:
